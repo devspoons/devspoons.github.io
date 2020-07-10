@@ -1,4 +1,12 @@
-## devspoons.github.io
+---
+layout: page
+current: about
+title: About Devspoons
+navigation: true
+logo: 'assets/images/logo.png'
+class: page-template
+subclass: 'post page'
+---
 
 Devspoons is an open source solution that helps start-ups or development teams easily build a reliable development system environment.
 
@@ -22,10 +30,3 @@ Devspoons has kind of solutions like below :
 6. [devspoon-startup-tizen-app-galaxywatch2](https://github.com/devspoons/devspoon-startup-tizen-app-galaxywatch2)
 - Tizen application project for galaxywatch2
 
-
-## used solution for this web site
-
-This site made by [jasper2](https://jekyller.github.io/jasper2) solution.
-if you want to know this solution more detaily, check live demo and home page
-
-[Ghost's Casper](https://demo.ghost.io) // [Jasper2](https://jekyller.github.io/jasper2)
