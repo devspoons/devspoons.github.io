@@ -30,3 +30,4 @@ Devspoons has kind of solutions like below :
 6. [devspoon-startup-tizen-app-galaxywatch2](https://github.com/devspoons/devspoon-startup-tizen-app-galaxywatch2)
 - Tizen application project for galaxywatch2
 
+* this project's owner is bluebamus, if you want to know me visit [bluebamus.github.io](bluebamus.github.io)
