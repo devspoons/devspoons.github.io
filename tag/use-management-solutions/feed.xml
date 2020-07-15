@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator>
+  <link href="http://localhost:4000/tag/use-management-solutions/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
+  <updated>2020-07-16T01:52:51+09:00</updated>
+  <id>http://localhost:4000/tag/use-management-solutions/feed.xml</id>
+
+  
+  
+  
+
+  
+    <title type="html">Devspoon’s github.io | </title>
+  
+
+  
+    <subtitle>devspoons are open source about easy building web service,&lt;br&gt; project management for start-up or development teams</subtitle>
+  
+
+  
+
+  
+    
+      
+    
+  
+
+  
+  
+
+  
+    <entry>
+      <title type="html">How to start harbor with devspoon solutions</title>
+      <link href="http://localhost:4000/harbor" rel="alternate" type="text/html" title="How to start harbor with devspoon solutions" />
+      <published>2020-07-10T23:00:00+09:00</published>
+      <updated>2020-07-10T23:00:00+09:00</updated>
+      <id>http://localhost:4000/harbor</id>
+      <content type="html" xml:base="http://localhost:4000/harbor">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>bluebamus</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Use management solutions" />
+      
+
+      
+        <summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How to start gitolite with devspoon solutions</title>
+      <link href="http://localhost:4000/gitolite" rel="alternate" type="text/html" title="How to start gitolite with devspoon solutions" />
+      <published>2020-07-09T19:00:00+09:00</published>
+      <updated>2020-07-09T19:00:00+09:00</updated>
+      <id>http://localhost:4000/gitolite</id>
+      <content type="html" xml:base="http://localhost:4000/gitolite">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>bluebamus</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Use management solutions" />
+      
+
+      
+        <summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How to start openproject with devspoon solutions</title>
+      <link href="http://localhost:4000/openproject" rel="alternate" type="text/html" title="How to start openproject with devspoon solutions" />
+      <published>2020-07-09T05:00:00+09:00</published>
+      <updated>2020-07-09T05:00:00+09:00</updated>
+      <id>http://localhost:4000/openproject</id>
+      <content type="html" xml:base="http://localhost:4000/openproject">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>bluebamus</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Use management solutions" />
+      
+
+      
+        <summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">How to start junkins with devspoon solutions</title>
+      <link href="http://localhost:4000/jenkins" rel="alternate" type="text/html" title="How to start junkins with devspoon solutions" />
+      <published>2020-07-08T02:30:00+09:00</published>
+      <updated>2020-07-08T02:30:00+09:00</updated>
+      <id>http://localhost:4000/jenkins</id>
+      <content type="html" xml:base="http://localhost:4000/jenkins">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name>bluebamus</name>
+        
+        
+      </author>
+
+      
+
+      
+        <category term="Use management solutions" />
+      
+
+      
+        <summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>

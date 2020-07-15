@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Document Settings -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- Base Meta -->
+    <!-- dynamically fixing the title for tag/author pages -->
+
+
+
+    <title>How to start devspoon-web solution</title>
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Styles'n'Scripts -->
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/screen.edited.css" />
+    <link rel="stylesheet" type="text/css" href="/assets/built/syntax.css" />
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+    <style>.hljs { background: none; }</style>
+
+    <!--[if IE]>
+        <style>
+            p, ol, ul{
+                width: 100%;
+            }
+            blockquote{
+                width: 100%;
+            }
+        </style>
+    <![endif]-->
+    
+    <!-- This tag outputs SEO meta+structured data and other important settings -->
+    <meta name="description" content="devspoons are open source about easy building web service,<br> project management for start-up or development teams" />
+    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="http://localhost:4000/devspoon-web" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+     <!--title below is coming from _includes/dynamic_title-->
+    <meta property="og:site_name" content="Devspoon's github.io" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="How to start devspoon-web solution" />
+    <meta property="og:description" content="This open source project offer docker that three kind of web service solutions by php-7.3, gunicorn, uwsgi based on nginx server. Anyone can install web services easily using docker and docker-compose. Af you want to use python and php service at same time, this solution can help you better. Support" />
+    <meta property="og:url" content="http://localhost:4000/devspoon-web" />
+    <meta property="og:image" content="http://localhost:4000/assets/images/posts/2020-07-01_10-00-00/devspoon-web-title.png" />
+    <meta property="article:publisher" content="https://www.facebook.com/bluebamus" />
+    <meta property="article:author" content="https://www.facebook.com/bluebamus" />
+    <meta property="article:published_time" content="2020-07-01T19:00:00+09:00" />
+    <meta property="article:modified_time" content="2020-07-01T19:00:00+09:00" />
+    <meta property="article:tag" content="Getting Started" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="How to start devspoon-web solution" />
+    <meta name="twitter:description" content="This open source project offer docker that three kind of web service solutions by php-7.3, gunicorn, uwsgi based on nginx server. Anyone can install web services easily using docker and docker-compose. Af you want to use python and php service at same time, this solution can help you better. Support" />
+    <meta name="twitter:url" content="http://localhost:4000/" />
+    <meta name="twitter:image" content="http://localhost:4000/assets/images/posts/2020-07-01_10-00-00/devspoon-web-title.png" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Devspoon's github.io" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="Getting Started" />
+    <meta name="twitter:site" content="@bluebamus" />
+    <meta name="twitter:creator" content="@bluebamus" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="933" />
+
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Website",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Devspoon's github.io",
+        "logo": "http://localhost:4000/assets/images/logo.png"
+    },
+    "url": "http://localhost:4000/devspoon-web",
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://localhost:4000/assets/images/posts/2020-07-01_10-00-00/devspoon-web-title.png",
+        "width": 2000,
+        "height": 666
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:4000/devspoon-web"
+    },
+    "description": "This open source project offer docker that three kind of web service solutions by php-7.3, gunicorn, uwsgi based on nginx server. Anyone can install web services easily using docker and docker-compose. Af you want to use python and php service at same time, this solution can help you better. Support"
+}
+    </script>
+
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/public/ghost-sdk.min.js?v=724281a32e"></script>
+    <script type="text/javascript">
+    ghost.init({
+    	clientId: "ghost-frontend",
+    	clientSecret: "f84a07a72b17"
+    });
+    </script> -->
+
+    <meta name="generator" content="Jekyll 3.6.2" />
+    <link rel="alternate" type="application/rss+xml" title="How to start devspoon-web solution" href="/feed.xml" />
+
+
+</head>
+<body class="post-template">
+
+    <div class="site-wrapper">
+        <!-- All the main content gets inserted here, index.hbs, post.hbs, etc -->
+        <!-- default -->
+
+<!-- The tag above means: insert everything in this file
+into the {body} of the default.hbs template -->
+
+<header class="site-header outer">
+    <div class="inner">
+        <nav class="site-nav">
+    <div class="site-nav-left">
+        
+            
+                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/logo.png" alt="Devspoon's github.io" /></a>
+            
+        
+        
+            <ul class="nav" role="menu">
+    <li class="nav-home" role="menuitem"><a href="/">Home</a></li>
+    <li class="nav-about" role="menuitem"><a href="/about/">About</a></li>
+    <li class="nav-getting-started" role="menuitem"><a href="/tag/getting-started/">Getting Started</a></li>
+    <li class="nav-getting-started" role="menuitem"><a href="/tag/build-web-service-for-start-up/">Build web service for start-up</a></li>
+    <li class="nav-getting-started" role="menuitem"><a href="/tag/use-management-solutions/">Use management solutions</a></li>
+    <li class="nav-getting-started" role="menuitem"><a href="/tag/about-tizen/">About Tizen</a></li>
+</ul>
+
+        
+    </div>
+    <div class="site-nav-right">
+        <div class="social-links">
+            
+                <a class="social-link social-link-fb" href="https://facebook.com/bluebamus" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+</a>
+            
+            
+                <a class="social-link social-link-tw" href="https://twitter.com/bluebamus" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+</a>
+            
+        </div>
+        
+    </div>
+</nav>
+
+    </div>
+</header>
+
+<!-- Everything inside the #post tags pulls data from the post -->
+<!-- #post -->
+
+<main id="site-main" class="site-main outer" role="main">
+    <div class="inner">
+
+        <article class="post-full  tag-getting-started post ">
+
+            <header class="post-full-header">
+                <section class="post-full-meta">
+                    <time class="post-full-meta-date" datetime=" 1 July 2020"> 1 July 2020</time>
+                    
+                        <span class="date-divider">/</span>
+                        
+                            
+                               <a href='/tag/getting-started/'>GETTING STARTED</a>
+                            
+                        
+                    
+                </section>
+                <h1 class="post-full-title">How to start devspoon-web solution</h1>
+            </header>
+
+            
+            <figure class="post-full-image" style="background-image: url(/assets/images/posts/2020-07-01_10-00-00/devspoon-web-title.png)">
+            </figure>
+            
+
+            <section class="post-full-content">
+                <div class="kg-card-markdown">
+                    <p><img src="assets/images/posts/2020-07-01_10-00-00/devspoon-web.png" alt="Devspoon-web solution infrastructure" /></p>
+
+<p>This open source project offer docker that three kind of web service solutions by php-7.3, gunicorn, uwsgi based on nginx server.
+    Anyone can install web services easily using docker and docker-compose.
+    Af you want to use python and php service at same time, this solution can help you better.
+</p>
+
+<hr />
+
+<ul>
+  <li><strong>Support to make configuration files for each service(conf, yml etc) :</strong> <mark>Using shell script,
+      you can easily make and manage the configuration files</mark> required for nginx, php, dockerfile, etc. with only
+    the information required by the user's keyboard.</li>
+  <li><strong>Efficiently dockerfile configuration for development and service operation :</strong>The log folder is
+    interlocked by "volumes" in docker-compose.yml so that <mark>user can can be tracked problems even when the docker
+      container is stopped.</mark> Webroot, nginx config, etc. are frequently modified during development so these are
+    interlocked by "volumes"</li>
+  <li><strong>Provide reverse proxy function :</strong><mark>Multiple web and app services can be provided through one
+      nginx with php or python and services can be provided simultaneously.</mark> A shell script is provided to easily
+    create a proxy config file so that it can be integrated with the web UI of other services.</li>
+  <li><strong>Provides easy distributed service operation method :</strong><mark>You can use multiple web servers
+      through proxy,</mark> and you can use multiple app servers on one web server. (How to set load balancing will be
+    supported in the future)</li>
+</ul>
+
+<hr />
+
+<p>* This open source doesn't support database solution. To management DB data safely installing it at localhost is better.<br><br></p>
+
+<p><u>So I recommend a reference link</u></p>
+
+<ul>
+<li><p><strong>English Ver :<br></strong> <a href="https://linuxize.com/post/how-to-install-mariadb-on-ubuntu-18-04/">[How to Install MariaDB on Ubuntu 18.04]</a></p></li>
+<li><p><strong>Korean Ver :<br></strong> <a href="https://blog.lael.be/post/8319">[Ubuntu 18.04 LTS 에서 웹서버(NGINX + PHP-FPM + MariaDB) 구성하기]</a></p></li>
+</ul>
+<h1 id="heading1">Let's start the PHP server</h1><br>
+
+<blockquote>
+This solution has www folder that synchronized with container by volumes in docker-compose.yml.
+And user can make webroot folder here like www/devspoons.
+Already therer is sample folder in www/sample. So user can refer at the folder of index file.
+</blockquote>
+<p>* If you want to use wordpress or gnuboard or any framework, after make any folder at www, move your ecompressed files here.</p><br>
+
+<ol>
+	<li>
+		<p><h3>Make webroot and copy files</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/www
+root# <span class="nb">ls
+</span>py37  sample
+
+root# mkdir devspoons-test
+root# <span class="nb">cd </span>devspoons-test
+root# <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"&lt;?php</span><span class="se">\n\t</span><span class="s2">phpinfo();</span><span class="se">\n</span><span class="s2">?&gt;"</span> <span class="o">&gt;</span> index.php
+root# <span class="nb">ls
+</span>index.php</code></pre></figure>
+<hr />
+	</li>
+	<li>
+		<p><h3>Make nginx conf file</h3></p>
+		<ul>
+			<li>
+				Docker-compose can connect between containers using application name in a docker-compose.yml file.
+				Current PHP application name is php-app.<br>
+				If you don't have domain yet, can use ip address. but you can't use https setting on web service of ip address.
+			</li>
+		</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/web-server/nginx/php
+root# <span class="nb">ls
+</span>conf.d  fastcgi  nginx_conf  nginx_conf.sh  nginx_https_conf.sh  sample_nginx.conf  sample_nginx_https.conf
+
+root# chmod 777 nginx_conf.sh
+root# ./nginx_conf.sh
+Enter the service web root <span class="o">&gt;</span>devspoons-test
+Entered service web root: devspoons-test
+Enter the service portnumber <span class="o">&gt;</span>80
+Entered service portnumber: 80
+Enter the service domain <span class="o">&gt;</span>devspoons.github.com
+Entered service domain: devspoons.github.com
+Enter the app name <span class="o">&gt;</span>php-app
+Entered app name: php-app
+Enter the serviceport
+<span class="k">if </span>you push enter with none, there are no port number <span class="o">&gt;</span>9000
+Entered proxy port: 9000
+Enter the file name <span class="o">&gt;</span>devspoons-test1
+Entered file name: devspoons-test1
+
+root# <span class="nb">cd </span>conf.d/
+root# <span class="nb">ls
+</span>devspoons-test1_ng.conf  sample_php_ng.conf</code></pre></figure>
+<hr />
+	</li>
+
+	<li>
+		<p><h3>Make PHP conf file</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/app-server/php
+root# <span class="nb">ls
+</span>php_conf.sh  php_ini  pool.d  sample_php.conf
+
+root# chmod 777 php_conf.sh
+root# ./php_conf.sh
+Enter the service domain <span class="o">&gt;</span>devspoons.github.com
+Entered service domain: devspoons.github.com
+Enter the service portnumber <span class="o">&gt;</span>9000
+Entered service portnumber: 9000
+
+root# <span class="nb">cd </span>pool.d/
+root# <span class="nb">ls
+</span>devspoons.github.com_php.conf  sample_php.conf</code></pre></figure>
+<hr />		
+	</li>
+
+	<li>
+		<p><h3>Run devspoon-web</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/compose/web_service/nginx_php
+root# <span class="nb">ls
+</span>docker-compose.yml
+
+root# docker-compose up <span class="nt">-d</span></code></pre></figure>
+<hr />		
+	</li>
+</ol>
+
+<h1 id="heading1">Let's start the Gunicorn server</h1><br>
+
+<blockquote>
+This solution has www folder that synchronized with container by volumes in docker-compose.yml.
+And user can make webroot folder here like www/devspoons/.
+Already therer is sample folder in www/py37. So user can refer at the folder of index file.
+</blockquote>
+<p>* We assume that already user know how can make django project. So we will use sample django project named py37.</p><br>
+
+<ol>
+	<li>
+		<p><h3>Make webroot and copy files</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/www
+root# <span class="nb">ls
+</span>py37  sample</code></pre></figure>
+<hr />
+	</li>
+	<li>
+		<p><h3>Make nginx conf file</h3></p>
+		<ul>
+			<li>
+				Docker-compose can connect between containers using application name in a docker-compose.yml file.
+				Current gunicorn application name is gunicorn-app. if you want to change the name, update docker-compose.yml at devspoon-web/compose/web_service/nginx_gunicorn<br>
+				If you don't have domain yet, can use ip address. but you can't use https setting on web service of ip address.
+			</li>
+		</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/web-server/nginx/gunicorn
+root# <span class="nb">ls
+</span>conf.d  nginx_conf  nginx_conf.sh  nginx_https_conf.sh  sample_nginx.conf  sample_nginx_https.conf
+
+root# chmod 777 nginx_conf.sh
+root# ./nginx_conf.sh
+Enter the service web root <span class="o">&gt;</span>/www/py37/django_test/repo
+Entered service web root: /www/py37/django_test/repo
+Enter the service portnumber <span class="o">&gt;</span>80
+Entered service portnumber: 80
+Enter the service domain <span class="o">&gt;</span>devspoons.github.com
+Entered service domain: devspoons.github.com
+Enter the app name <span class="o">&gt;</span>gunicorn-app
+Entered app name: gunicorn-app
+Enter the serviceport
+<span class="k">if </span>you push enter with none, there are no port number <span class="o">&gt;</span>8000
+Entered proxy port: 8000
+Enter the file name <span class="o">&gt;</span>devspoons.github.com1
+Entered file name: devspoons.github.com1
+
+root# <span class="nb">cd </span>conf.d/
+root# <span class="nb">ls
+</span>devspoons.github.com1_gunicorn_ng.conf</code></pre></figure>
+<hr />
+	</li>
+
+	<li>
+		<p><h3>Update gunicorn executing script</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/docker/gunicorn
+root# <span class="nb">ls
+</span>Dockerfile  run.sh
+
+root# vim run.sh
+<span class="c">#!/bin/bash</span>
+
+<span class="c"># update your djang project path</span>
+<span class="nb">cd</span> /www/py37/django_test/repo  
+
+<span class="c"># update this line. workers = cpu core * 2</span>
+<span class="c">#  --reload  = this option means if you update django code, gunicorn will restart the server itself</span>
+gunicorn <span class="nt">--workers</span> 4 <span class="nt">--bind</span> 0.0.0.0:8000 conf.wsgi:application <span class="nt">--daemon</span> <span class="nt">--reload</span> 
+
+...</code></pre></figure>
+<hr />		
+	</li>
+
+	<li>
+		<p><h3>Run devspoon-web</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/compose/web_service/nginx_gunicorn
+root# <span class="nb">ls
+</span>docker-compose.yml
+
+root# docker-compose up <span class="nt">-d</span></code></pre></figure>
+<hr />		
+	</li>
+</ol>
+
+<h1 id="heading1">Let's start the UWSGI server</h1><br>
+
+<blockquote>
+	This solution has www folder that synchronized with container by volumes in docker-compose.yml.
+	And user can make webroot folder here like www/devspoons/.
+	Already therer is sample folder in www/py37. So user can refer at the folder of index file.
+	</blockquote>
+	<p>* We assume that already user know how can make django project. So we will use sample django project named py37.</p><br>
+	
+<ol>
+	<li>
+		<p><h3>Make webroot and copy files</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/www
+root# <span class="nb">ls
+</span>py37  sample</code></pre></figure>
+<hr />
+	</li>
+	<li>
+		<p><h3>Make nginx conf file</h3></p>
+		<ul>
+			<li>
+				Docker-compose can connect between containers using application name in a docker-compose.yml file.
+				Current UWSGI application name is uwsgi-app. if you want to change the name, update docker-compose.yml at devspoon-web/compose/web_service/nginx_uwsgi<br>
+				If you don't have domain yet, can use ip address. but you can't use https setting on web service of ip address.
+			</li>
+		</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/web-server/nginx/uwsgi
+root# <span class="nb">ls
+</span>conf.d  nginx_conf  nginx_conf.sh  nginx_https_conf.sh  sample_nginx.conf  sample_nginx_https.conf  uwsgi_params
+
+root# chmod 777 nginx_conf.sh
+root# ./nginx_conf.sh
+Enter the service web root <span class="o">&gt;</span>/www/py37/django_test/repo
+Entered service web root: /www/py37/django_test/repo
+Enter the service portnumber <span class="o">&gt;</span>80
+Entered service portnumber: 80
+Enter the service domain <span class="o">&gt;</span>devspoons.github.com
+Entered service domain: devspoons.github.com
+Enter the app name <span class="o">&gt;</span>uwsgi-app
+Entered app name: uwsgi-app
+Enter the serviceport
+<span class="k">if </span>you push enter with none, there are no port number <span class="o">&gt;</span>8000
+Entered proxy port: 8000
+Enter the file name <span class="o">&gt;</span>devspoons.github.com1
+Entered file name: devspoons.github.com1
+
+root# <span class="nb">cd </span>conf.d/
+root# <span class="nb">ls
+</span>devspoons.github.com1_uwsgi_ng.conf</code></pre></figure>
+<hr />
+	</li>
+
+	<li>
+		<p><h3>Update UWSGI executing script</h3></p>
+		<ul>
+			<li>
+				UWSGI has two of executing ways to run a server using python file and ini file.<br>
+				We serve both ways but explain only "ini" case in this manual.<br>
+				And uwsgi.ini support many arguments, So We don't mention it in this page.
+			</li>
+		</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/app-server/uwsgi
+root# <span class="nb">ls
+</span>uwsgi.ini  uwsgi_config.py
+
+root# vim uwsgi.ini</code></pre></figure>
+<hr />		
+	</li>
+
+	<li>
+		<p><h3>Run devspoon-web</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/compose/web_service/nginx_uwsgi
+root# <span class="nb">ls
+</span>docker-compose.yml
+
+root# docker-compose up <span class="nt">-d</span></code></pre></figure>
+<hr />		
+	</li>
+</ol>
+
+<ul>
+	<li>
+		<p><h3>Trace log files</h3></p>
+		<ul>
+			<li>
+				Check other log folders. If log option was setting, It will make a file at each folders.<br>
+				This manual explain only for nginx log case.
+			</li>
+		</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/log/nginx
+root# <span class="nb">ls
+</span>devspoons.github.com.access.log devspoons.github.com.error.log</code></pre></figure>
+<hr />		
+	</li>
+	<li>
+		<p><h3>Upgrade Http to https</h3></p>
+		<p><strong>Go to manual :</strong> <a href="devspoon-web-https">How to build https with devspoon's web service</a></p>
+<hr />		
+	</li>
+</ul>
+                </div>
+            </section>
+
+            <!-- Email subscribe form at the bottom of the page -->
+            
+
+            <footer class="post-full-footer">
+                <!-- Everything inside the #author tags pulls data from the author -->
+                <!-- #author-->
+                
+                    
+                        <section class="author-card">
+                            
+                                <img class="author-profile-image" src="/assets/images/ghost.png" alt="bluebamus" />
+                            
+                            <section class="author-card-content">
+                                <h4 class="author-card-name"><a href="/author/bluebamus">bluebamus</a></h4>
+                                
+                                    <p>The professional publishing platform</p>
+                                
+                            </section>
+                        </section>
+                        <div class="post-full-footer-right">
+                            <a class="author-card-button" href="/author/bluebamus">Read More</a>
+                        </div>
+                    
+                
+                <!-- /author  -->
+            </footer>
+
+            <!-- If you use Disqus comments, just uncomment this block.
+            The only thing you need to change is "test-apkdzgmqhj" - which
+            should be replaced with your own Disqus site-id. -->
+            
+                <section class="post-full-comments">
+                    <div id="disqus_thread"></div>
+                    <script>
+                        var disqus_config = function () {
+                            this.page.url = 'http://localhost:4000/devspoon-web';
+                            this.page.identifier = '/devspoon-web';
+                            this.page.title = 'How to start devspoon-web solution';
+                        };
+                        (function() {
+                            var d = document, s = d.createElement('script');
+                            s.src = 'https://bluebamus.disqus.com/embed.js';
+                            s.setAttribute('data-timestamp', +new Date());
+                            (d.head || d.body).appendChild(s);
+                        })();
+                    </script>
+                </section>
+            
+
+        </article>
+
+    </div>
+</main>
+
+<!-- Links to Previous/Next posts -->
+<aside class="read-next outer">
+    <div class="inner">
+        <div class="read-next-feed">
+            
+                
+                
+                
+                
+                    <article class="read-next-card"
+                        
+                            style="background-image: url(/assets/images/blog-cover.jpg)"
+                        
+                    >
+                        <header class="read-next-card-header">
+                            <small class="read-next-card-header-sitetitle">&mdash; Devspoon's github.io &mdash;</small>
+                            
+                                <h3 class="read-next-card-header-title"><a href="/tag/getting-started/">Getting started</a></h3>
+                            
+                        </header>
+                        <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"/></svg>
+</div>
+                        <div class="read-next-card-content">
+                            <ul>
+                                
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/devspoon-proxy-https">How to build https with devspoon's proxy service</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/devspoon-web-https">How to build https with devspoon's web service</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/devspoon-startup-cloud-tizen">How to start devspoon-startup-cloud-tizen solution</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                    
+                                  
+                                
+                            </ul>
+                        </div>
+                        <footer class="read-next-card-footer">
+                            <a href="/tag/getting-started/">
+                                
+                                    See all 6 posts  →
+                                
+                            </a>
+                        </footer>
+                    </article>
+                
+            
+
+            <!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/devspoon-startup-web">
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/2020-07-02_11-00-00/devspoon-startup-web-title.png)"></div>
+            </a>
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/devspoon-startup-web">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Getting started</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">How to start devspoon-startup-web solution</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/ghost.png" alt="bluebamus" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/bluebamus/">bluebamus</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+            <!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs -->
+            
+                
+
+    <article class="post-card post-template no-image">
+        
+        <div class="post-card-content">
+            <a class="post-card-content-link" href="/How-to">
+                <header class="post-card-header">
+                    
+                        
+                            
+                                <span class="post-card-tags">Getting started</span>
+                            
+                        
+                    
+
+                    <h2 class="post-card-title">How to use this theme</h2>
+                </header>
+                <section class="post-card-excerpt">
+                    
+                        <p></p>
+                    
+                </section>
+            </a>
+            <footer class="post-card-meta">
+                
+                    
+                        
+                        <img class="author-profile-image" src="/assets/images/ghost.png" alt="bluebamus" />
+                        
+                        <span class="post-card-author">
+                            <a href="/author/bluebamus/">bluebamus</a>
+                        </span>
+                    
+                
+                <span class="reading-time">
+                    
+                    
+                      1 min read
+                    
+                </span>
+            </footer>
+        </div>
+    </article>
+
+            
+
+        </div>
+    </div>
+</aside>
+
+<!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
+<div class="floating-header">
+    <div class="floating-header-logo">
+        <a href="http://localhost:4000/">
+            
+                <img src="/assets/images/favicon.png" alt="Devspoon's github.io icon" />
+            
+            <span>Devspoon's github.io</span>
+        </a>
+    </div>
+    <span class="floating-header-divider">&mdash;</span>
+    <div class="floating-header-title">How to start devspoon-web solution</div>
+    <div class="floating-header-share">
+        <div class="floating-header-share-label">Share this <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"/>
+</svg>
+</div>
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=How+to+start+devspoon-web+solution&amp;url=https://devspoons.github.iodevspoon-web"
+            onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"/></svg>
+
+        </a>
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://devspoons.github.iodevspoon-web"
+            onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"/></svg>
+
+        </a>
+    </div>
+    <progress class="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</div>
+
+
+<!-- /post -->
+
+<!-- The #contentFor helper here will send everything inside it up to the matching #block helper found in default.hbs -->
+
+
+        <!-- Previous/next page links - displayed on every page -->
+        
+
+        <!-- The footer at the very bottom of the screen -->
+        <footer class="site-footer outer">
+            <div class="site-footer-content inner">
+                <section class="copyright"><a href="http://localhost:4000/">Devspoon's github.io</a> &copy; 2020</section>
+                <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
+                    <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
+                    <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>
+                <nav class="site-footer-nav">
+                    <a href="/">Latest Posts</a>
+                    <a href="https://facebook.com/bluebamus" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/bluebamus" target="_blank" rel="noopener">Twitter</a>
+                    <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
+                </nav>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- The big email subscribe modal content -->
+    
+
+    <!-- highlight.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.10.0/components/prism-abap.min.js"></script>
+    <script>$(document).ready(function() {
+      $('pre code').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });</script>
+
+    <!-- jQuery + Fitvids, which makes all video embeds responsive -->
+    <script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script>
+    <!-- <script type="text/javascript" src="https://demo.ghost.io/assets/js/jquery.fitvids.js?v=724281a32e"></script> -->
+
+
+    <!-- Paginator increased to "infinit" in _config.yml -->
+    <!-- if paginator.posts  -->
+    <!-- <script>
+        var maxPages = parseInt('');
+    </script>
+    <script src="/assets/js/infinitescroll.js"></script> -->
+    <!-- /endif -->
+
+    
+
+
+    <!-- Add Google Analytics  -->
+    <!-- Google Analytics Tracking code -->
+ <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-172366882-1', 'auto');
+  ga('send', 'pageview');
+
+ </script>
+
+
+    <!-- The #block helper will pull in data from the #contentFor other template files. In this case, there's some JavaScript which we only want to use in post.hbs, but it needs to be included down here, after jQuery has already loaded. -->
+    
+        <script>
+
+// NOTE: Scroll performance is poor in Safari
+// - this appears to be due to the events firing much more slowly in Safari.
+//   Dropping the scroll event and using only a raf loop results in smoother
+//   scrolling but continuous processing even when not scrolling
+$(document).ready(function () {
+    // Start fitVids
+    var $postContent = $(".post-full-content");
+    $postContent.fitVids();
+    // End fitVids
+
+    var progressBar = document.querySelector('progress');
+    var header = document.querySelector('.floating-header');
+    var title = document.querySelector('.post-full-title');
+
+    var lastScrollY = window.scrollY;
+    var lastWindowHeight = window.innerHeight;
+    var lastDocumentHeight = $(document).height();
+    var ticking = false;
+
+    function onScroll() {
+        lastScrollY = window.scrollY;
+        requestTick();
+    }
+
+    function onResize() {
+        lastWindowHeight = window.innerHeight;
+        lastDocumentHeight = $(document).height();
+        requestTick();
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            requestAnimationFrame(update);
+        }
+        ticking = true;
+    }
+
+    function update() {
+        var trigger = title.getBoundingClientRect().top + window.scrollY;
+        var triggerOffset = title.offsetHeight + 35;
+        var progressMax = lastDocumentHeight - lastWindowHeight;
+
+        // show/hide floating header
+        if (lastScrollY >= trigger + triggerOffset) {
+            header.classList.add('floating-active');
+        } else {
+            header.classList.remove('floating-active');
+        }
+
+        progressBar.setAttribute('max', progressMax);
+        progressBar.setAttribute('value', lastScrollY);
+
+        ticking = false;
+    }
+
+    window.addEventListener('scroll', onScroll, {passive: true});
+    window.addEventListener('resize', onResize, false);
+
+    update();
+});
+</script>
+
+    
+
+    <!-- Ghost outputs important scripts and data with this tag - it should always be the very last thing before the closing body tag -->
+    <!-- ghost_foot -->
+
+</body>
+</html>
