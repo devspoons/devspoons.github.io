@@ -290,20 +290,6 @@ add_user.sh -> it show how to add new user in gitolite
   <li>There are advanced information in <a href="https://goharbor.io/docs/2.0.0/"><strong>Harbor 2.0 Documentation</strong></a></li>
 </ol> 
 <hr />
-
-<h1 id="heading1">Setting up HTTPS on a web server</h2>
-<ul>
-  <li>This step requires running http nginx server. it recommend php nginx server for this step. if user need to informations for this, refer to <a href="https://goharbor.io/docs/2.0.0/"><strong>devspoon-web</strong></a></li>
-  <ol>
-    <li>There are letsencrypt.sh shell script file in script folder and it interlocked by volumes. so user can access script file in a nginx container</li>
-    <li>use "docker exec -it <nginx container name> bash" command, user can get docker inside.</li>
-    <li>run letsencrypt.sh and insert informations such as webroot, domain, e-mail etc. this script make ssl-key and make crontab schedule automatically</li>
-    <li>using "exit" command user can get off from container</li>
-    <li>Run nginx_proxy_https_conf.sh file in config/web-server/nginx/(web server type) and enter service port number, domain, proxy url(Openproject's application name in docker-compose.yml), proxy port number, filename, and than, it make a nginx conf file in conf.d folder</li>
-    <li>user have to remove http conf file in config/web-server/nginx/(web server type)/conf.d/</li>
-    <li>run "docker-compose up" command again in the compose folder</li>
-  </ol>   
-</ul>
                 </div>
             </section>
 
