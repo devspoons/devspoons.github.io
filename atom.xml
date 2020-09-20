@@ -4,7 +4,37 @@
     <title> - Articles</title>
     <description>devspoons are open source about easy building web service,&lt;br&gt; project management for start-up or development teams</description>
     <link>
-    http://localhost:4000</link>
+    </link>
+    
+      
+      <item>
+        <title>How to start devspoon-startup-web solution</title>
+        
+          <description>&lt;p&gt;&lt;strong&gt;devspoon-startup-web&lt;/strong&gt; is an open source made based on &lt;strong&gt;&lt;a href=&quot;https://devspoons.github.io/devspoon-web&quot;&gt;devspoon-web&lt;/a&gt;&lt;/strong&gt; that can easily build project integration management solutions (openproject, jenkins, gitolite[private git server], harbor[private docker server]) required for start-up or development teams as well as php and python based web servers.&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sun, 20 Sep 2020 19:25:00 +0900</pubDate>
+        <link>
+        /devspoon-startup-web</link>
+        <guid isPermaLink="true">/devspoon-startup-web</guid>
+      </item>
+      
+    
+      
+      <item>
+        <title>How to start devspoon-web solution</title>
+        
+          <description>&lt;p&gt;&lt;img src=&quot;assets/images/posts/2020-07-01_10-00-00/devspoon-web.png&quot; alt=&quot;Devspoon-web solution infrastructure&quot; /&gt;&lt;/p&gt;
+
+</description>
+        
+        <pubDate>Sat, 19 Sep 2020 19:00:00 +0900</pubDate>
+        <link>
+        /devspoon-web</link>
+        <guid isPermaLink="true">/devspoon-web</guid>
+      </item>
+      
     
       
       <item>
@@ -14,8 +44,8 @@
         
         <pubDate>Mon, 13 Jul 2020 20:25:00 +0900</pubDate>
         <link>
-        http://localhost:4000/tizen-jenkins</link>
-        <guid isPermaLink="true">http://localhost:4000/tizen-jenkins</guid>
+        /tizen-jenkins</link>
+        <guid isPermaLink="true">/tizen-jenkins</guid>
       </item>
       
     
@@ -27,8 +57,8 @@
         
         <pubDate>Sun, 12 Jul 2020 23:30:00 +0900</pubDate>
         <link>
-        http://localhost:4000/tizen-reference</link>
-        <guid isPermaLink="true">http://localhost:4000/tizen-reference</guid>
+        /tizen-reference</link>
+        <guid isPermaLink="true">/tizen-reference</guid>
       </item>
       
     
@@ -40,8 +70,8 @@
         
         <pubDate>Sat, 11 Jul 2020 23:40:00 +0900</pubDate>
         <link>
-        http://localhost:4000/gnuboard</link>
-        <guid isPermaLink="true">http://localhost:4000/gnuboard</guid>
+        /gnuboard</link>
+        <guid isPermaLink="true">/gnuboard</guid>
       </item>
       
     
@@ -53,8 +83,8 @@
         
         <pubDate>Fri, 10 Jul 2020 23:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/harbor</link>
-        <guid isPermaLink="true">http://localhost:4000/harbor</guid>
+        /harbor</link>
+        <guid isPermaLink="true">/harbor</guid>
       </item>
       
     
@@ -66,8 +96,8 @@
         
         <pubDate>Thu, 09 Jul 2020 19:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/gitolite</link>
-        <guid isPermaLink="true">http://localhost:4000/gitolite</guid>
+        /gitolite</link>
+        <guid isPermaLink="true">/gitolite</guid>
       </item>
       
     
@@ -79,8 +109,8 @@
         
         <pubDate>Thu, 09 Jul 2020 05:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/openproject</link>
-        <guid isPermaLink="true">http://localhost:4000/openproject</guid>
+        /openproject</link>
+        <guid isPermaLink="true">/openproject</guid>
       </item>
       
     
@@ -92,8 +122,8 @@
         
         <pubDate>Wed, 08 Jul 2020 02:30:00 +0900</pubDate>
         <link>
-        http://localhost:4000/jenkins</link>
-        <guid isPermaLink="true">http://localhost:4000/jenkins</guid>
+        /jenkins</link>
+        <guid isPermaLink="true">/jenkins</guid>
       </item>
       
     
@@ -107,8 +137,8 @@
         
         <pubDate>Mon, 06 Jul 2020 22:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/devspoon-proxy-https</link>
-        <guid isPermaLink="true">http://localhost:4000/devspoon-proxy-https</guid>
+        /devspoon-proxy-https</link>
+        <guid isPermaLink="true">/devspoon-proxy-https</guid>
       </item>
       
     
@@ -116,14 +146,19 @@
       <item>
         <title>How to build https with devspoon's web service</title>
         
-          <description>&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;
+          <description>&lt;p&gt;
+This page let you know how to set https service using 'Let's Encrypt' on devspoons web service.&lt;br&gt;
+We serve you shell script to make nginx conf file based on nginx server and it is already moved in docker container. &lt;br&gt;
+But to set the service, you have to access the container and do some process.&lt;br&gt;
+It's not difficult, if you will be following below manual.
+&lt;/p&gt;
 
 </description>
         
         <pubDate>Mon, 06 Jul 2020 01:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/devspoon-web-https</link>
-        <guid isPermaLink="true">http://localhost:4000/devspoon-web-https</guid>
+        /devspoon-web-https</link>
+        <guid isPermaLink="true">/devspoon-web-https</guid>
       </item>
       
     
@@ -137,8 +172,8 @@
         
         <pubDate>Sat, 04 Jul 2020 23:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/devspoon-startup-cloud-tizen</link>
-        <guid isPermaLink="true">http://localhost:4000/devspoon-startup-cloud-tizen</guid>
+        /devspoon-startup-cloud-tizen</link>
+        <guid isPermaLink="true">/devspoon-startup-cloud-tizen</guid>
       </item>
       
     
@@ -152,38 +187,8 @@
         
         <pubDate>Fri, 03 Jul 2020 21:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/devspoon-startup-tizen</link>
-        <guid isPermaLink="true">http://localhost:4000/devspoon-startup-tizen</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>How to start devspoon-startup-web solution</title>
-        
-          <description>&lt;p&gt;This post is telling you how to install web service with php, gunicorn, uwsgi using devspoon-web solution.&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Thu, 02 Jul 2020 20:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/devspoon-startup-web</link>
-        <guid isPermaLink="true">http://localhost:4000/devspoon-startup-web</guid>
-      </item>
-      
-    
-      
-      <item>
-        <title>How to start devspoon-web solution</title>
-        
-          <description>&lt;p&gt;&lt;img src=&quot;assets/images/posts/2020-07-01_10-00-00/devspoon-web.png&quot; alt=&quot;Devspoon-web solution infrastructure&quot; /&gt;&lt;/p&gt;
-
-</description>
-        
-        <pubDate>Wed, 01 Jul 2020 19:00:00 +0900</pubDate>
-        <link>
-        http://localhost:4000/devspoon-web</link>
-        <guid isPermaLink="true">http://localhost:4000/devspoon-web</guid>
+        /devspoon-startup-tizen</link>
+        <guid isPermaLink="true">/devspoon-startup-tizen</guid>
       </item>
       
     
@@ -197,8 +202,8 @@
         
         <pubDate>Wed, 01 Jul 2020 18:00:00 +0900</pubDate>
         <link>
-        http://localhost:4000/How-to</link>
-        <guid isPermaLink="true">http://localhost:4000/How-to</guid>
+        /How-to</link>
+        <guid isPermaLink="true">/How-to</guid>
       </item>
       
     

@@ -35,8 +35,8 @@
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="devspoons are open source about easy building web service,<br> project management for start-up or development teams" />
-    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/devspoon-web" />
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="/devspoon-web" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
@@ -44,18 +44,18 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="How to start devspoon-web solution" />
     <meta property="og:description" content="This open source project offer docker that three kind of web service solutions by php-7.3, gunicorn, uwsgi based on nginx server. Anyone can install web services easily using docker and docker-compose. Af you want to use python and php service at same time, this solution can help you better. Support" />
-    <meta property="og:url" content="http://localhost:4000/devspoon-web" />
-    <meta property="og:image" content="http://localhost:4000/assets/images/posts/2020-07-01_10-00-00/devspoon-web-title.png" />
+    <meta property="og:url" content="/devspoon-web" />
+    <meta property="og:image" content="/assets/images/posts/2020-07-01_10-00-00/devspoon-web-title.png" />
     <meta property="article:publisher" content="https://www.facebook.com/bluebamus" />
     <meta property="article:author" content="https://www.facebook.com/bluebamus" />
-    <meta property="article:published_time" content="2020-07-01T19:00:00+09:00" />
-    <meta property="article:modified_time" content="2020-07-01T19:00:00+09:00" />
+    <meta property="article:published_time" content="2020-09-19T19:00:00+09:00" />
+    <meta property="article:modified_time" content="2020-09-19T19:00:00+09:00" />
     <meta property="article:tag" content="Getting Started" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="How to start devspoon-web solution" />
     <meta name="twitter:description" content="This open source project offer docker that three kind of web service solutions by php-7.3, gunicorn, uwsgi based on nginx server. Anyone can install web services easily using docker and docker-compose. Af you want to use python and php service at same time, this solution can help you better. Support" />
-    <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/images/posts/2020-07-01_10-00-00/devspoon-web-title.png" />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:image" content="/assets/images/posts/2020-07-01_10-00-00/devspoon-web-title.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Devspoon's github.io" />
     <meta name="twitter:label2" content="Filed under" />
@@ -72,18 +72,18 @@
     "publisher": {
         "@type": "Organization",
         "name": "Devspoon's github.io",
-        "logo": "http://localhost:4000/assets/images/logo.png"
+        "logo": "/assets/images/logo.png"
     },
-    "url": "http://localhost:4000/devspoon-web",
+    "url": "/devspoon-web",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/images/posts/2020-07-01_10-00-00/devspoon-web-title.png",
+        "url": "/assets/images/posts/2020-07-01_10-00-00/devspoon-web-title.png",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/devspoon-web"
+        "@id": "/devspoon-web"
     },
     "description": "This open source project offer docker that three kind of web service solutions by php-7.3, gunicorn, uwsgi based on nginx server. Anyone can install web services easily using docker and docker-compose. Af you want to use python and php service at same time, this solution can help you better. Support"
 }
@@ -117,7 +117,7 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-left">
         
             
-                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/logo.png" alt="Devspoon's github.io" /></a>
+                <a class="site-nav-logo" href="/"><img src="/assets/images/logo.png" alt="Devspoon's github.io" /></a>
             
         
         
@@ -160,7 +160,7 @@ into the {body} of the default.hbs template -->
 
             <header class="post-full-header">
                 <section class="post-full-meta">
-                    <time class="post-full-meta-date" datetime=" 1 July 2020"> 1 July 2020</time>
+                    <time class="post-full-meta-date" datetime="19 September 2020">19 September 2020</time>
                     
                         <span class="date-divider">/</span>
                         
@@ -226,7 +226,7 @@ Already therer is sample folder in www/sample. So user can refer at the folder o
 
 <ol>
 	<li>
-		<p><h3>Make webroot and copy files</h3></p>
+		<p><h2>Make webroot and copy files</h2></p>
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/www
 root# <span class="nb">ls
 </span>py37  sample
@@ -239,7 +239,7 @@ root# <span class="nb">ls
 <hr />
 	</li>
 	<li>
-		<p><h3>Make nginx conf file</h3></p>
+		<p><h2>Make nginx conf file</h2></p>
 		<ul>
 			<li>
 				Docker-compose can connect between containers using application name in a docker-compose.yml file.
@@ -274,7 +274,7 @@ root# <span class="nb">ls
 	</li>
 
 	<li>
-		<p><h3>Make PHP conf file</h3></p>
+		<p><h2>Make PHP conf file</h2></p>
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/app-server/php
 root# <span class="nb">ls
 </span>php_conf.sh  php_ini  pool.d  sample_php.conf
@@ -293,7 +293,7 @@ root# <span class="nb">ls
 	</li>
 
 	<li>
-		<p><h3>Run devspoon-web</h3></p>
+		<p><h2>Run devspoon-web</h2></p>
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/compose/web_service/nginx_php
 root# <span class="nb">ls
 </span>docker-compose.yml
@@ -314,14 +314,14 @@ Already therer is sample folder in www/py37. So user can refer at the folder of 
 
 <ol>
 	<li>
-		<p><h3>Make webroot and copy files</h3></p>
+		<p><h2>Make webroot and copy files</h2></p>
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/www
 root# <span class="nb">ls
 </span>py37  sample</code></pre></figure>
 <hr />
 	</li>
 	<li>
-		<p><h3>Make nginx conf file</h3></p>
+		<p><h2>Make nginx conf file</h2></p>
 		<ul>
 			<li>
 				Docker-compose can connect between containers using application name in a docker-compose.yml file.
@@ -335,19 +335,13 @@ root# <span class="nb">ls
 
 root# chmod 777 nginx_conf.sh
 root# ./nginx_conf.sh
-Enter the service web root <span class="o">&gt;</span>/www/py37/django_test/repo
-Entered service web root: /www/py37/django_test/repo
+Enter the service web root <span class="o">&gt;</span><span class="se">\\</span>/www<span class="se">\\</span>/py37<span class="se">\\</span>/django_test<span class="se">\\</span>/repo
 Enter the service portnumber <span class="o">&gt;</span>80
-Entered service portnumber: 80
 Enter the service domain <span class="o">&gt;</span>devspoons.github.com
-Entered service domain: devspoons.github.com
 Enter the app name <span class="o">&gt;</span>gunicorn-app
-Entered app name: gunicorn-app
 Enter the serviceport
 <span class="k">if </span>you push enter with none, there are no port number <span class="o">&gt;</span>8000
-Entered proxy port: 8000
 Enter the file name <span class="o">&gt;</span>devspoons.github.com1
-Entered file name: devspoons.github.com1
 
 root# <span class="nb">cd </span>conf.d/
 root# <span class="nb">ls
@@ -356,27 +350,22 @@ root# <span class="nb">ls
 	</li>
 
 	<li>
-		<p><h3>Update gunicorn executing script</h3></p>
+		<p><h2>Update gunicorn executing script</h2></p>
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/docker/gunicorn
 root# <span class="nb">ls
-</span>Dockerfile  run.sh
+</span>Dockerfile  run.sh  make_run.sh  sample_run
+<span class="c"># if you want to use sample project, you can use run.sh</span>
 
-root# vim run.sh
-<span class="c">#!/bin/bash</span>
+root# make_run.sh
 
-<span class="c"># update your djang project path</span>
-<span class="nb">cd</span> /www/py37/django_test/repo  
-
-<span class="c"># update this line. workers = cpu core * 2</span>
-<span class="c">#  --reload  = this option means if you update django code, gunicorn will restart the server itself</span>
-gunicorn <span class="nt">--workers</span> 4 <span class="nt">--bind</span> 0.0.0.0:8000 conf.wsgi:application <span class="nt">--daemon</span> <span class="nt">--reload</span> 
-
+Enter the project path <span class="o">&gt;</span><span class="se">\\</span>/www<span class="se">\\</span>/shop<span class="se">\\</span>/shop_kings
+Enter the project name <span class="o">&gt;</span>shop_kings
 ...</code></pre></figure>
 <hr />		
 	</li>
 
 	<li>
-		<p><h3>Run devspoon-web</h3></p>
+		<p><h2>Run devspoon-web</h2></p>
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/compose/web_service/nginx_gunicorn
 root# <span class="nb">ls
 </span>docker-compose.yml
@@ -397,14 +386,14 @@ root# docker-compose up <span class="nt">-d</span></code></pre></figure>
 	
 <ol>
 	<li>
-		<p><h3>Make webroot and copy files</h3></p>
+		<p><h2>Make webroot and copy files</h2></p>
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/www
 root# <span class="nb">ls
 </span>py37  sample</code></pre></figure>
 <hr />
 	</li>
 	<li>
-		<p><h3>Make nginx conf file</h3></p>
+		<p><h2>Make nginx conf file</h2></p>
 		<ul>
 			<li>
 				Docker-compose can connect between containers using application name in a docker-compose.yml file.
@@ -418,19 +407,13 @@ root# <span class="nb">ls
 
 root# chmod 777 nginx_conf.sh
 root# ./nginx_conf.sh
-Enter the service web root <span class="o">&gt;</span>/www/py37/django_test/repo
-Entered service web root: /www/py37/django_test/repo
+Enter the service web root <span class="o">&gt;</span><span class="se">\\</span>/www<span class="se">\\</span>/py37<span class="se">\\</span>/django_test<span class="se">\\</span>/repo
 Enter the service portnumber <span class="o">&gt;</span>80
-Entered service portnumber: 80
 Enter the service domain <span class="o">&gt;</span>devspoons.github.com
-Entered service domain: devspoons.github.com
 Enter the app name <span class="o">&gt;</span>uwsgi-app
-Entered app name: uwsgi-app
 Enter the serviceport
 <span class="k">if </span>you push enter with none, there are no port number <span class="o">&gt;</span>8000
-Entered proxy port: 8000
 Enter the file name <span class="o">&gt;</span>devspoons.github.com1
-Entered file name: devspoons.github.com1
 
 root# <span class="nb">cd </span>conf.d/
 root# <span class="nb">ls
@@ -439,7 +422,7 @@ root# <span class="nb">ls
 	</li>
 
 	<li>
-		<p><h3>Update UWSGI executing script</h3></p>
+		<p><h2>Update UWSGI executing script</h2></p>
 		<ul>
 			<li>
 				UWSGI has two of executing ways to run a server using python file and ini file.<br>
@@ -449,14 +432,31 @@ root# <span class="nb">ls
 		</ul>
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/app-server/uwsgi
 root# <span class="nb">ls
-</span>uwsgi.ini  uwsgi_config.py
+</span>sample_uwsgi.ini uwsgi_conf.sh  uwsgi_config.py
 
-root# vim uwsgi.ini</code></pre></figure>
+root# ./uwsgi_conf.sh
+
+Enter the project path <span class="o">&gt;</span><span class="se">\\</span>/www<span class="se">\\</span>/shop<span class="se">\\</span>/shop_kings
+Enter the project name <span class="o">&gt;</span>shop_kings
+Enter the service port number <span class="o">&gt;</span>8000
+
+root# <span class="nb">ls
+</span>sample_uwsgi.ini uwsgi_conf.sh  uwsgi_config.py  uwsgi.ini</code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/docker/uwsgi
+root# <span class="nb">ls
+</span>Dockerfile  run.sh  make_run.sh  sample_run
+<span class="c"># if you want to use sample project, you can use run.sh</span>
+
+root# make_run.sh
+
+Enter the project path <span class="o">&gt;</span><span class="se">\\</span>/www<span class="se">\\</span>/shop<span class="se">\\</span>/shop_kings
+...</code></pre></figure>
 <hr />		
 	</li>
 
 	<li>
-		<p><h3>Run devspoon-web</h3></p>
+		<p><h2>Run devspoon-web</h2></p>
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/compose/web_service/nginx_uwsgi
 root# <span class="nb">ls
 </span>docker-compose.yml
@@ -468,7 +468,7 @@ root# docker-compose up <span class="nt">-d</span></code></pre></figure>
 
 <ul>
 	<li>
-		<p><h3>Trace log files</h3></p>
+		<p><h2>Trace log files</h2></p>
 		<ul>
 			<li>
 				Check other log folders. If log option was setting, It will make a file at each folders.<br>
@@ -481,7 +481,7 @@ root# <span class="nb">ls
 <hr />		
 	</li>
 	<li>
-		<p><h3>Upgrade Http to https</h3></p>
+		<p><h2>Upgrade Http to https</h2></p>
 		<p><strong>Go to manual :</strong> <a href="devspoon-web-https">How to build https with devspoon's web service</a></p>
 <hr />		
 	</li>
@@ -524,7 +524,7 @@ root# <span class="nb">ls
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            this.page.url = 'http://localhost:4000/devspoon-web';
+                            this.page.url = '/devspoon-web';
                             this.page.identifier = '/devspoon-web';
                             this.page.title = 'How to start devspoon-web solution';
                         };
@@ -570,6 +570,19 @@ root# <span class="nb">ls
                                 
                                 
                                   
+                                    
+                                        
+                                        
+                                            <li><a href="/devspoon-startup-web">How to start devspoon-startup-web solution</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                  
+                                
+                                  
                                 
                                   
                                 
@@ -605,8 +618,6 @@ root# <span class="nb">ls
                                     
                                         
                                         
-                                            <li><a href="/devspoon-startup-cloud-tizen">How to start devspoon-startup-cloud-tizen solution</a></li>
-                                        
                                     
                                   
                                 
@@ -614,17 +625,6 @@ root# <span class="nb">ls
                                     
                                         
                                         
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                    
-                                  
-                                
-                                  
                                     
                                   
                                 
@@ -704,20 +704,24 @@ root# <span class="nb">ls
             
                 
 
-    <article class="post-card post-template no-image">
+    <article class="post-card post-template">
+        
+            <a class="post-card-image-link" href="/tizen-jenkins">
+                <div class="post-card-image" style="background-image: url(/assets/images/posts/2020-07-13_11-25-00/jenkins-tizen-title.png)"></div>
+            </a>
         
         <div class="post-card-content">
-            <a class="post-card-content-link" href="/How-to">
+            <a class="post-card-content-link" href="/tizen-jenkins">
                 <header class="post-card-header">
                     
                         
                             
-                                <span class="post-card-tags">Getting started</span>
+                                <span class="post-card-tags">About tizen</span>
                             
                         
                     
 
-                    <h2 class="post-card-title">How to use this theme</h2>
+                    <h2 class="post-card-title">How to set jenkins for tizen</h2>
                 </header>
                 <section class="post-card-excerpt">
                     
@@ -755,7 +759,7 @@ root# <span class="nb">ls
 <!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
 <div class="floating-header">
     <div class="floating-header-logo">
-        <a href="http://localhost:4000/">
+        <a href="/">
             
                 <img src="/assets/images/favicon.png" alt="Devspoon's github.io icon" />
             
@@ -799,7 +803,7 @@ root# <span class="nb">ls
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="http://localhost:4000/">Devspoon's github.io</a> &copy; 2020</section>
+                <section class="copyright"><a href="/">Devspoon's github.io</a> &copy; 2020</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>

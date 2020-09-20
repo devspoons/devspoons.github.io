@@ -35,17 +35,17 @@
     
     <!-- This tag outputs SEO meta+structured data and other important settings -->
     <meta name="description" content="devspoons are open source about easy building web service,<br> project management for start-up or development teams" />
-    <link rel="shortcut icon" href="http://localhost:4000/assets/images/favicon.png" type="image/png" />
-    <link rel="canonical" href="http://localhost:4000/devspoon-web-https" />
+    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/png" />
+    <link rel="canonical" href="/devspoon-web-https" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
 
      <!--title below is coming from _includes/dynamic_title-->
     <meta property="og:site_name" content="Devspoon's github.io" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="How to build https with devspoon's web service" />
-    <meta property="og:description" content="This page is reserved preview posting. It'll be fill by bluebamus author later. Let's start the PHP server Typographically 1 2 3 4 5 6 7 8 9 10 11 12 13 // javascript code sample $.ajax({ type: 'POST', url: 'backend.php', data: "q="+myform.serialize(), success: function(data){ // on success use return" />
-    <meta property="og:url" content="http://localhost:4000/devspoon-web-https" />
-    <meta property="og:image" content="http://localhost:4000/assets/images/posts/2020-07-05_16-00-00/devspoon-http-title.png" />
+    <meta property="og:description" content="This page let you know how to set https service using 'Let's Encrypt' on devspoons web service. We serve you shell script to make nginx conf file based on nginx server and it is already moved in docker container. But to set the service, you have to access the container" />
+    <meta property="og:url" content="/devspoon-web-https" />
+    <meta property="og:image" content="/assets/images/posts/2020-07-05_16-00-00/devspoon-http-title.png" />
     <meta property="article:publisher" content="https://www.facebook.com/bluebamus" />
     <meta property="article:author" content="https://www.facebook.com/bluebamus" />
     <meta property="article:published_time" content="2020-07-06T01:00:00+09:00" />
@@ -53,9 +53,9 @@
     <meta property="article:tag" content="Getting Started" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="How to build https with devspoon's web service" />
-    <meta name="twitter:description" content="This page is reserved preview posting. It'll be fill by bluebamus author later. Let's start the PHP server Typographically 1 2 3 4 5 6 7 8 9 10 11 12 13 // javascript code sample $.ajax({ type: 'POST', url: 'backend.php', data: "q="+myform.serialize(), success: function(data){ // on success use return" />
-    <meta name="twitter:url" content="http://localhost:4000/" />
-    <meta name="twitter:image" content="http://localhost:4000/assets/images/posts/2020-07-05_16-00-00/devspoon-http-title.png" />
+    <meta name="twitter:description" content="This page let you know how to set https service using 'Let's Encrypt' on devspoons web service. We serve you shell script to make nginx conf file based on nginx server and it is already moved in docker container. But to set the service, you have to access the container" />
+    <meta name="twitter:url" content="/" />
+    <meta name="twitter:image" content="/assets/images/posts/2020-07-05_16-00-00/devspoon-http-title.png" />
     <meta name="twitter:label1" content="Written by" />
     <meta name="twitter:data1" content="Devspoon's github.io" />
     <meta name="twitter:label2" content="Filed under" />
@@ -72,20 +72,20 @@
     "publisher": {
         "@type": "Organization",
         "name": "Devspoon's github.io",
-        "logo": "http://localhost:4000/assets/images/logo.png"
+        "logo": "/assets/images/logo.png"
     },
-    "url": "http://localhost:4000/devspoon-web-https",
+    "url": "/devspoon-web-https",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:4000/assets/images/posts/2020-07-05_16-00-00/devspoon-http-title.png",
+        "url": "/assets/images/posts/2020-07-05_16-00-00/devspoon-http-title.png",
         "width": 2000,
         "height": 666
     },
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:4000/devspoon-web-https"
+        "@id": "/devspoon-web-https"
     },
-    "description": "This page is reserved preview posting. It'll be fill by bluebamus author later. Let's start the PHP server Typographically 1 2 3 4 5 6 7 8 9 10 11 12 13 // javascript code sample $.ajax({ type: 'POST', url: 'backend.php', data: "q="+myform.serialize(), success: function(data){ // on success use return"
+    "description": "This page let you know how to set https service using 'Let's Encrypt' on devspoons web service. We serve you shell script to make nginx conf file based on nginx server and it is already moved in docker container. But to set the service, you have to access the container"
 }
     </script>
 
@@ -117,7 +117,7 @@ into the {body} of the default.hbs template -->
     <div class="site-nav-left">
         
             
-                <a class="site-nav-logo" href="http://localhost:4000/"><img src="/assets/images/logo.png" alt="Devspoon's github.io" /></a>
+                <a class="site-nav-logo" href="/"><img src="/assets/images/logo.png" alt="Devspoon's github.io" /></a>
             
         
         
@@ -180,99 +180,315 @@ into the {body} of the default.hbs template -->
 
             <section class="post-full-content">
                 <div class="kg-card-markdown">
-                    <p>This page is reserved preview posting. It'll be fill by bluebamus author later.</p>
+                    <p>
+This page let you know how to set https service using 'Let's Encrypt' on devspoons web service.<br>
+We serve you shell script to make nginx conf file based on nginx server and it is already moved in docker container. <br>
+But to set the service, you have to access the container and do some process.<br>
+It's not difficult, if you will be following below manual.
+</p>
 
 <hr />
 
-<h1 id="heading1">Let's start the PHP server</h1>
-<p>Typographically</p>
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="code"><pre><span class="c1">// javascript code sample</span>
-<span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
-  <span class="na">type</span><span class="p">:</span> <span class="s1">'POST'</span><span class="p">,</span>
-  <span class="na">url</span><span class="p">:</span> <span class="s1">'backend.php'</span><span class="p">,</span>
-  <span class="na">data</span><span class="p">:</span> <span class="s2">"q="</span><span class="o">+</span><span class="nx">myform</span><span class="p">.</span><span class="nx">serialize</span><span class="p">(),</span>
-  <span class="na">success</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
-    <span class="c1">// on success use return data here</span>
-  <span class="p">},</span>
-  <span class="na">error</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">xhr</span><span class="p">,</span> <span class="nx">type</span><span class="p">,</span> <span class="nx">exception</span><span class="p">)</span> <span class="p">{</span>
-    <span class="c1">// if ajax fails display error alert</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="s2">"ajax error response type "</span><span class="o">+</span><span class="nx">type</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">});</span></pre></td></tr></tbody></table></code></pre></figure>
+<p><h1 id="heading1">Let's make PHP nginx server</h1></p><br>
+<p> * "let's encrypt" support many kind of authentication ways. 
+  In this page, we mention only webroot solution. It is required a web server applied domain address. </p>
+
+<ol>
+  <li><strong>Make php, nginx conf files for http service :</strong>  "let's encrypt" will check try to access local folder to check server status.<br> 
+      So, you have to make webroot folder under wwww folder and make php, nginx conf files too.  </li>
+  <li><strong>Efficiently dockerfile configuration for development and service operation :</strong>The log folder is
+    interlocked by "volumes" in docker-compose.yml so that <mark>user can can be tracked problems even when the docker
+      container is stopped.</mark> Webroot, nginx config, etc. are frequently modified during development so these are
+    interlocked by "volumes"</li>
+  <li><strong>Provide reverse proxy function :</strong><mark>Multiple web and app services can be provided through one
+      nginx with php or python and services can be provided simultaneously.</mark> A shell script is provided to easily
+    create a proxy config file so that it can be integrated with the web UI of other services.</li>
+  <li><strong>Provides easy distributed service operation method :</strong><mark>You can use multiple web servers
+      through proxy,</mark> and you can use multiple app servers on one web server. (How to set load balancing will be
+    supported in the future)</li>
+</ol>
+
 <hr />
 
-<h1 id="heading1">Let's start the gunicorn server with django</h1>
-<p>Typographically</p>
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="code"><pre><span class="c1">// javascript code sample</span>
-<span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
-  <span class="na">type</span><span class="p">:</span> <span class="s1">'POST'</span><span class="p">,</span>
-  <span class="na">url</span><span class="p">:</span> <span class="s1">'backend.php'</span><span class="p">,</span>
-  <span class="na">data</span><span class="p">:</span> <span class="s2">"q="</span><span class="o">+</span><span class="nx">myform</span><span class="p">.</span><span class="nx">serialize</span><span class="p">(),</span>
-  <span class="na">success</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
-    <span class="c1">// on success use return data here</span>
-  <span class="p">},</span>
-  <span class="na">error</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">xhr</span><span class="p">,</span> <span class="nx">type</span><span class="p">,</span> <span class="nx">exception</span><span class="p">)</span> <span class="p">{</span>
-    <span class="c1">// if ajax fails display error alert</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="s2">"ajax error response type "</span><span class="o">+</span><span class="nx">type</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">});</span></pre></td></tr></tbody></table></code></pre></figure>
-<hr />
+<p>* This open source doesn't support database solution. To management DB data safely installing it at localhost is better.<br><br></p>
 
-<h1 id="heading1">Let's start the uwsgi server with django</h1>
-<p>Typographically</p>
-<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="code"><pre><span class="c1">// javascript code sample</span>
-<span class="nx">$</span><span class="p">.</span><span class="nx">ajax</span><span class="p">({</span>
-  <span class="na">type</span><span class="p">:</span> <span class="s1">'POST'</span><span class="p">,</span>
-  <span class="na">url</span><span class="p">:</span> <span class="s1">'backend.php'</span><span class="p">,</span>
-  <span class="na">data</span><span class="p">:</span> <span class="s2">"q="</span><span class="o">+</span><span class="nx">myform</span><span class="p">.</span><span class="nx">serialize</span><span class="p">(),</span>
-  <span class="na">success</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">data</span><span class="p">){</span>
-    <span class="c1">// on success use return data here</span>
-  <span class="p">},</span>
-  <span class="na">error</span><span class="p">:</span> <span class="kd">function</span><span class="p">(</span><span class="nx">xhr</span><span class="p">,</span> <span class="nx">type</span><span class="p">,</span> <span class="nx">exception</span><span class="p">)</span> <span class="p">{</span>
-    <span class="c1">// if ajax fails display error alert</span>
-    <span class="nx">alert</span><span class="p">(</span><span class="s2">"ajax error response type "</span><span class="o">+</span><span class="nx">type</span><span class="p">);</span>
-  <span class="p">}</span>
-<span class="p">});</span></pre></td></tr></tbody></table></code></pre></figure>
+<p><u>So I recommend a reference link</u></p>
+
+<ul>
+<li><p><strong>English Ver :<br></strong> <a href="https://linuxize.com/post/how-to-install-mariadb-on-ubuntu-18-04/">[How to Install MariaDB on Ubuntu 18.04]</a></p></li>
+<li><p><strong>Korean Ver :<br></strong> <a href="https://blog.lael.be/post/8319">[Ubuntu 18.04 LTS 에서 웹서버(NGINX + PHP-FPM + MariaDB) 구성하기]</a></p></li>
+</ul>
+<h1 id="heading1">Let's start the PHP server</h1><br>
+
+<blockquote>
+This solution has www folder that synchronized with container by volumes in docker-compose.yml.
+And user can make webroot folder here like www/devspoons.
+Already therer is sample folder in www/sample. So user can refer at the folder of index file.
+</blockquote>
+<p>* If you want to use wordpress or gnuboard or any framework, after make any folder at www, move your ecompressed files here.</p><br>
+
+<ol>
+	<li>
+		<p><h3>Make webroot and copy files</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/www
+root# <span class="nb">ls
+</span>py37  sample
+
+root# mkdir devspoons-test
+root# <span class="nb">cd </span>devspoons-test
+root# <span class="nb">echo</span> <span class="nt">-e</span> <span class="s2">"&lt;?php</span><span class="se">\n\t</span><span class="s2">phpinfo();</span><span class="se">\n</span><span class="s2">?&gt;"</span> <span class="o">&gt;</span> index.php
+root# <span class="nb">ls
+</span>index.php</code></pre></figure>
 <hr />
+	</li>
+	<li>
+		<p><h3>Make nginx conf file</h3></p>
+		<ul>
+			<li>
+				Docker-compose can connect between containers using application name in a docker-compose.yml file.
+				Current PHP application name is php-app.<br>
+				If you don't have domain yet, can use ip address. but you can't use https setting on web service of ip address.
+			</li>
+		</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/web-server/nginx/php
+root# <span class="nb">ls
+</span>conf.d  fastcgi  nginx_conf  nginx_conf.sh  nginx_https_conf.sh  sample_nginx.conf  sample_nginx_https.conf
+
+root# chmod 777 nginx_conf.sh
+root# ./nginx_conf.sh
+Enter the service web root <span class="o">&gt;</span>devspoons-test
+Entered service web root: devspoons-test
+Enter the service portnumber <span class="o">&gt;</span>80
+Entered service portnumber: 80
+Enter the service domain <span class="o">&gt;</span>devspoons.github.com
+Entered service domain: devspoons.github.com
+Enter the app name <span class="o">&gt;</span>php-app
+Entered app name: php-app
+Enter the serviceport
+<span class="k">if </span>you push enter with none, there are no port number <span class="o">&gt;</span>9000
+Entered proxy port: 9000
+Enter the file name <span class="o">&gt;</span>devspoons-test1
+Entered file name: devspoons-test1
+
+root# <span class="nb">cd </span>conf.d/
+root# <span class="nb">ls
+</span>devspoons-test1_ng.conf  sample_php_ng.conf</code></pre></figure>
+<hr />
+	</li>
+
+	<li>
+		<p><h3>Make PHP conf file</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/app-server/php
+root# <span class="nb">ls
+</span>php_conf.sh  php_ini  pool.d  sample_php.conf
+
+root# chmod 777 php_conf.sh
+root# ./php_conf.sh
+Enter the service domain <span class="o">&gt;</span>devspoons.github.com
+Entered service domain: devspoons.github.com
+Enter the service portnumber <span class="o">&gt;</span>9000
+Entered service portnumber: 9000
+
+root# <span class="nb">cd </span>pool.d/
+root# <span class="nb">ls
+</span>devspoons.github.com_php.conf  sample_php.conf</code></pre></figure>
+<hr />		
+	</li>
+
+	<li>
+		<p><h3>Run devspoon-web</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/compose/web_service/nginx_php
+root# <span class="nb">ls
+</span>docker-compose.yml
+
+root# docker-compose up <span class="nt">-d</span></code></pre></figure>
+<hr />		
+	</li>
+</ol>
+
+<h1 id="heading1">Let's start the Gunicorn server</h1><br>
+
+<blockquote>
+This solution has www folder that synchronized with container by volumes in docker-compose.yml.
+And user can make webroot folder here like www/devspoons/.
+Already therer is sample folder in www/py37. So user can refer at the folder of index file.
+</blockquote>
+<p>* We assume that already user know how can make django project. So we will use sample django project named py37.</p><br>
+
+<ol>
+	<li>
+		<p><h3>Make webroot and copy files</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/www
+root# <span class="nb">ls
+</span>py37  sample</code></pre></figure>
+<hr />
+	</li>
+	<li>
+		<p><h3>Make nginx conf file</h3></p>
+		<ul>
+			<li>
+				Docker-compose can connect between containers using application name in a docker-compose.yml file.
+				Current gunicorn application name is gunicorn-app. if you want to change the name, update docker-compose.yml at devspoon-web/compose/web_service/nginx_gunicorn<br>
+				If you don't have domain yet, can use ip address. but you can't use https setting on web service of ip address.
+			</li>
+		</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/web-server/nginx/gunicorn
+root# <span class="nb">ls
+</span>conf.d  nginx_conf  nginx_conf.sh  nginx_https_conf.sh  sample_nginx.conf  sample_nginx_https.conf
+
+root# chmod 777 nginx_conf.sh
+root# ./nginx_conf.sh
+Enter the service web root <span class="o">&gt;</span>/www/py37/django_test/repo
+Entered service web root: /www/py37/django_test/repo
+Enter the service portnumber <span class="o">&gt;</span>80
+Entered service portnumber: 80
+Enter the service domain <span class="o">&gt;</span>devspoons.github.com
+Entered service domain: devspoons.github.com
+Enter the app name <span class="o">&gt;</span>gunicorn-app
+Entered app name: gunicorn-app
+Enter the serviceport
+<span class="k">if </span>you push enter with none, there are no port number <span class="o">&gt;</span>8000
+Entered proxy port: 8000
+Enter the file name <span class="o">&gt;</span>devspoons.github.com1
+Entered file name: devspoons.github.com1
+
+root# <span class="nb">cd </span>conf.d/
+root# <span class="nb">ls
+</span>devspoons.github.com1_gunicorn_ng.conf</code></pre></figure>
+<hr />
+	</li>
+
+	<li>
+		<p><h3>Update gunicorn executing script</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/docker/gunicorn
+root# <span class="nb">ls
+</span>Dockerfile  run.sh
+
+root# vim run.sh
+<span class="c">#!/bin/bash</span>
+
+<span class="c"># update your djang project path</span>
+<span class="nb">cd</span> /www/py37/django_test/repo  
+
+<span class="c"># update this line. workers = cpu core * 2</span>
+<span class="c">#  --reload  = this option means if you update django code, gunicorn will restart the server itself</span>
+gunicorn <span class="nt">--workers</span> 4 <span class="nt">--bind</span> 0.0.0.0:8000 conf.wsgi:application <span class="nt">--daemon</span> <span class="nt">--reload</span> 
+
+...</code></pre></figure>
+<hr />		
+	</li>
+
+	<li>
+		<p><h3>Run devspoon-web</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/compose/web_service/nginx_gunicorn
+root# <span class="nb">ls
+</span>docker-compose.yml
+
+root# docker-compose up <span class="nt">-d</span></code></pre></figure>
+<hr />		
+	</li>
+</ol>
+
+<h1 id="heading1">Let's start the UWSGI server</h1><br>
+
+<blockquote>
+	This solution has www folder that synchronized with container by volumes in docker-compose.yml.
+	And user can make webroot folder here like www/devspoons/.
+	Already therer is sample folder in www/py37. So user can refer at the folder of index file.
+	</blockquote>
+	<p>* We assume that already user know how can make django project. So we will use sample django project named py37.</p><br>
+	
+<ol>
+	<li>
+		<p><h3>Make webroot and copy files</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/www
+root# <span class="nb">ls
+</span>py37  sample</code></pre></figure>
+<hr />
+	</li>
+	<li>
+		<p><h3>Make nginx conf file</h3></p>
+		<ul>
+			<li>
+				Docker-compose can connect between containers using application name in a docker-compose.yml file.
+				Current UWSGI application name is uwsgi-app. if you want to change the name, update docker-compose.yml at devspoon-web/compose/web_service/nginx_uwsgi<br>
+				If you don't have domain yet, can use ip address. but you can't use https setting on web service of ip address.
+			</li>
+		</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/web-server/nginx/uwsgi
+root# <span class="nb">ls
+</span>conf.d  nginx_conf  nginx_conf.sh  nginx_https_conf.sh  sample_nginx.conf  sample_nginx_https.conf  uwsgi_params
+
+root# chmod 777 nginx_conf.sh
+root# ./nginx_conf.sh
+Enter the service web root <span class="o">&gt;</span>/www/py37/django_test/repo
+Entered service web root: /www/py37/django_test/repo
+Enter the service portnumber <span class="o">&gt;</span>80
+Entered service portnumber: 80
+Enter the service domain <span class="o">&gt;</span>devspoons.github.com
+Entered service domain: devspoons.github.com
+Enter the app name <span class="o">&gt;</span>uwsgi-app
+Entered app name: uwsgi-app
+Enter the serviceport
+<span class="k">if </span>you push enter with none, there are no port number <span class="o">&gt;</span>8000
+Entered proxy port: 8000
+Enter the file name <span class="o">&gt;</span>devspoons.github.com1
+Entered file name: devspoons.github.com1
+
+root# <span class="nb">cd </span>conf.d/
+root# <span class="nb">ls
+</span>devspoons.github.com1_uwsgi_ng.conf</code></pre></figure>
+<hr />
+	</li>
+
+	<li>
+		<p><h3>Update UWSGI executing script</h3></p>
+		<ul>
+			<li>
+				UWSGI has two of executing ways to run a server using python file and ini file.<br>
+				We serve both ways but explain only "ini" case in this manual.<br>
+				And uwsgi.ini support many arguments, So We don't mention it in this page.
+			</li>
+		</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/config/app-server/uwsgi
+root# <span class="nb">ls
+</span>uwsgi.ini  uwsgi_config.py
+
+root# vim uwsgi.ini</code></pre></figure>
+<hr />		
+	</li>
+
+	<li>
+		<p><h3>Run devspoon-web</h3></p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/compose/web_service/nginx_uwsgi
+root# <span class="nb">ls
+</span>docker-compose.yml
+
+root# docker-compose up <span class="nt">-d</span></code></pre></figure>
+<hr />		
+	</li>
+</ol>
+
+<ul>
+	<li>
+		<p><h3>Trace log files</h3></p>
+		<ul>
+			<li>
+				Check other log folders. If log option was setting, It will make a file at each folders.<br>
+				This manual explain only for nginx log case.
+			</li>
+		</ul>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">root# <span class="nb">cd </span>devspoon-web/log/nginx
+root# <span class="nb">ls
+</span>devspoons.github.com.access.log devspoons.github.com.error.log</code></pre></figure>
+<hr />		
+	</li>
+	<li>
+		<p><h3>Upgrade Http to https</h3></p>
+		<p><strong>Go to manual :</strong> <a href="devspoon-web-https">How to build https with devspoon's web service</a></p>
+<hr />		
+	</li>
+</ul>
                 </div>
             </section>
 
@@ -311,7 +527,7 @@ into the {body} of the default.hbs template -->
                     <div id="disqus_thread"></div>
                     <script>
                         var disqus_config = function () {
-                            this.page.url = 'http://localhost:4000/devspoon-web-https';
+                            this.page.url = '/devspoon-web-https';
                             this.page.identifier = '/devspoon-web-https';
                             this.page.title = 'How to build https with devspoon's web service';
                         };
@@ -357,6 +573,24 @@ into the {body} of the default.hbs template -->
                                 
                                 
                                   
+                                    
+                                        
+                                        
+                                            <li><a href="/devspoon-startup-web">How to start devspoon-startup-web solution</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
+                                    
+                                        
+                                        
+                                            <li><a href="/devspoon-web">How to start devspoon-web solution</a></li>
+                                        
+                                    
+                                  
+                                
+                                  
                                 
                                   
                                 
@@ -380,24 +614,6 @@ into the {body} of the default.hbs template -->
                                   
                                 
                                   
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/devspoon-startup-cloud-tizen">How to start devspoon-startup-cloud-tizen solution</a></li>
-                                        
-                                    
-                                  
-                                
-                                  
-                                    
-                                        
-                                        
-                                            <li><a href="/devspoon-startup-tizen">How to start devspoon-startup-tizen solution</a></li>
-                                        
                                     
                                   
                                 
@@ -546,7 +762,7 @@ into the {body} of the default.hbs template -->
 <!-- Floating header which appears on-scroll, included from includes/floating-header.hbs -->
 <div class="floating-header">
     <div class="floating-header-logo">
-        <a href="http://localhost:4000/">
+        <a href="/">
             
                 <img src="/assets/images/favicon.png" alt="Devspoon's github.io icon" />
             
@@ -590,7 +806,7 @@ into the {body} of the default.hbs template -->
         <!-- The footer at the very bottom of the screen -->
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="http://localhost:4000/">Devspoon's github.io</a> &copy; 2020</section>
+                <section class="copyright"><a href="/">Devspoon's github.io</a> &copy; 2020</section>
                 <section class="poweredby">Proudly published with <a href="https://jekyllrb.com/">Jekyll</a> &
                     <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a> using
                     <a href="https://github.com/jekyller/jasper2" target="_blank" rel="noopener">Jasper2</a></section>

@@ -1,188 +1,432 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-16T01:52:51+09:00</updated><id>http://localhost:4000/</id><title type="html">Devspoon’s github.io</title><subtitle>devspoons are open source about easy building web service,&lt;br&gt; project management for start-up or development teams</subtitle><entry><title type="html">How to set jenkins for tizen</title><link href="http://localhost:4000/tizen-jenkins" rel="alternate" type="text/html" title="How to set jenkins for tizen" /><published>2020-07-13T20:25:00+09:00</published><updated>2020-07-13T20:25:00+09:00</updated><id>http://localhost:4000/tizen-jenkins</id><content type="html" xml:base="http://localhost:4000/tizen-jenkins">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="About tizen" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">Tizen reference</title><link href="http://localhost:4000/tizen-reference" rel="alternate" type="text/html" title="Tizen reference" /><published>2020-07-12T23:30:00+09:00</published><updated>2020-07-12T23:30:00+09:00</updated><id>http://localhost:4000/tizen-reference</id><content type="html" xml:base="http://localhost:4000/tizen-reference">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="About tizen" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start devspoon-startup-cloud-tizen solution</title><link href="http://localhost:4000/gnuboard" rel="alternate" type="text/html" title="How to start devspoon-startup-cloud-tizen solution" /><published>2020-07-11T23:40:00+09:00</published><updated>2020-07-11T23:40:00+09:00</updated><id>http://localhost:4000/gnuboard</id><content type="html" xml:base="http://localhost:4000/gnuboard">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="Build web service for start-up" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start harbor with devspoon solutions</title><link href="http://localhost:4000/harbor" rel="alternate" type="text/html" title="How to start harbor with devspoon solutions" /><published>2020-07-10T23:00:00+09:00</published><updated>2020-07-10T23:00:00+09:00</updated><id>http://localhost:4000/harbor</id><content type="html" xml:base="http://localhost:4000/harbor">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="Use management solutions" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start gitolite with devspoon solutions</title><link href="http://localhost:4000/gitolite" rel="alternate" type="text/html" title="How to start gitolite with devspoon solutions" /><published>2020-07-09T19:00:00+09:00</published><updated>2020-07-09T19:00:00+09:00</updated><id>http://localhost:4000/gitolite</id><content type="html" xml:base="http://localhost:4000/gitolite">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="Use management solutions" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start openproject with devspoon solutions</title><link href="http://localhost:4000/openproject" rel="alternate" type="text/html" title="How to start openproject with devspoon solutions" /><published>2020-07-09T05:00:00+09:00</published><updated>2020-07-09T05:00:00+09:00</updated><id>http://localhost:4000/openproject</id><content type="html" xml:base="http://localhost:4000/openproject">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="Use management solutions" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start junkins with devspoon solutions</title><link href="http://localhost:4000/jenkins" rel="alternate" type="text/html" title="How to start junkins with devspoon solutions" /><published>2020-07-08T02:30:00+09:00</published><updated>2020-07-08T02:30:00+09:00</updated><id>http://localhost:4000/jenkins</id><content type="html" xml:base="http://localhost:4000/jenkins">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="Use management solutions" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to build https with devspoon’s proxy service</title><link href="http://localhost:4000/devspoon-proxy-https" rel="alternate" type="text/html" title="How to build https with devspoon's proxy service" /><published>2020-07-06T22:00:00+09:00</published><updated>2020-07-06T22:00:00+09:00</updated><id>http://localhost:4000/devspoon-proxy-https</id><content type="html" xml:base="http://localhost:4000/devspoon-proxy-https">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.7.4">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-09-20T23:58:34+09:00</updated><id>/</id><title type="html">Devspoon’s github.io</title><subtitle>devspoons are open source about easy building web service,&lt;br&gt; project management for start-up or development teams</subtitle><entry><title type="html">How to start devspoon-startup-web solution</title><link href="/devspoon-startup-web" rel="alternate" type="text/html" title="How to start devspoon-startup-web solution" /><published>2020-09-20T19:25:00+09:00</published><updated>2020-09-20T19:25:00+09:00</updated><id>/devspoon-startup-web</id><content type="html" xml:base="/devspoon-startup-web">&lt;p&gt;&lt;strong&gt;devspoon-startup-web&lt;/strong&gt; is an open source made based on &lt;strong&gt;&lt;a href=&quot;https://devspoons.github.io/devspoon-web&quot;&gt;devspoon-web&lt;/a&gt;&lt;/strong&gt; that can easily build project integration management solutions (openproject, jenkins, gitolite[private git server], harbor[private docker server]) required for start-up or development teams as well as php and python based web servers.&lt;/p&gt;
+
+&lt;h1 id=&quot;heading1&quot;&gt;Project management solutions&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.openproject.org/user-guide/wiki/&quot;&gt;OpenProject&lt;/a&gt; : Open source project management software to help you work on your project efficiently&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Jenkins_(software)&quot;&gt;Jenkins&lt;/a&gt; : As one of the CI tools, CI (Continuous Integration) refers to continuous integration, which is an automated process for developers, and new code changes are automatically built and tested regularly to notify developers to solve problems that can occur when multiple developers develop simultaneously. Software that helps secure development stability and reliability&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://wiki.archlinux.org/index.php/Gitolite&quot;&gt;Gitolite&lt;/a&gt; : Configuration Management Tool. user can install git server software at own server&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Harbor&quot;&gt;Harbor&lt;/a&gt; : The Private Docker Registry Server for businesses that store and distribute Docker Images&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;heading1&quot;&gt;Features&lt;/h1&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Supports creation of configuration files required for each service :&lt;/strong&gt; Environment files and security keys used for each service are created according to the user's keyboard input using a shell script or automatically generated.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;User custom installation support :&lt;/strong&gt; You can selectively install only the desired solution at compose/project_mng_service/(solution) without having to install all the solutions.
+    &lt;ul&gt;
+      &lt;li&gt;If you want to install more than one solution at the same time, just uncomment what you want at compose/master_service/docker-compose.yml.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Access web server and project management solutions with one nginx through nginx proxy :&lt;/strong&gt; All solutions are available on one nginx server.
+    &lt;ul&gt;
+      &lt;li&gt;You can use ssh for direct access to gitolite.&lt;/li&gt;
+      &lt;li&gt;The harbor will be supported in a future version due to security issues, and you can connect to your own server through harbor.yml.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;heading1&quot;&gt;Install &amp; Run&lt;/h1&gt;
+&lt;h2 id=&quot;heading2&quot;&gt;OpenProject&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;When using OpenProject, e-mail account information is required to send events by e-mail&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;In this sample, We consider the mailgun service setting&lt;/li&gt;
+    &lt;li&gt;A docker-compose.yml file is at /compose/project_mng_service/nginx_openproject&lt;/li&gt;
+    &lt;li&gt;If your account isn't joining in admin group, remove all files in the pgdata folder&lt;/li&gt;
+  &lt;/ul&gt;    
+&lt;/ol&gt;    
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;environment:
+  EMAIL_DELIVERY_METHOD: smtp
+  SMTP_ADDRESS: smtp.mailgun.org &lt;span class=&quot;c&quot;&gt;#Need to change when using other services than mailgun&lt;/span&gt;
+  SMTP_PORT: 587 &lt;span class=&quot;c&quot;&gt;#Need to change when using other services than mailgun&lt;/span&gt;
+  SMTP_DOMAIN: &lt;span class=&quot;s2&quot;&gt;&quot;test.com&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#user's SMTP domain information&lt;/span&gt;
+  SMTP_AUTHENTICATION: login
+  SMTP_ENABLE_STARTTLS_AUTO: &lt;span class=&quot;s2&quot;&gt;&quot;true&quot;&lt;/span&gt;
+  SMTP_USER_NAME: &lt;span class=&quot;s2&quot;&gt;&quot;test@test.com&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Service account information&lt;/span&gt;
+  SMTP_PASSWORD: &lt;span class=&quot;s2&quot;&gt;&quot;1234567890067655abcdefgh&quot;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Service authentication key information&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ol start=&quot;2&quot;&gt;
+  &lt;li&gt;Run nginx_proxy_conf.sh file in config/web-server/nginx/(web server type) and enter service port number, domain, proxy url(You can use the Openproject's application name in docker-compose.yml), proxy port number, filename, and than, it make a nginx conf file in conf.d folder&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ol start=&quot;3&quot;&gt;
+  &lt;li&gt;get move to compose/project_mng_service/nginx_openproject/&lt;/li&gt;
+  &lt;li&gt;Run docker-compose.yml file&lt;/li&gt;
+&lt;/ol&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# docker-compose up &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ol start=&quot;4&quot;&gt;
+  &lt;li&gt;There are advanced information in &lt;a href=&quot;https://docs.openproject.org/installation-and-operations/operation/backing-up/&quot;&gt;&lt;strong&gt;OpenProject Official User Documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;heading2&quot;&gt;Jenkins&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Run nginx_proxy_conf.sh file in config/web-server/nginx/(web server type) and enter service port number, domain, proxy url(Openproject's application name in docker-compose.yml), proxy port number, filename, and than, it make a nginx conf file in conf.d folder&lt;/li&gt;
+  &lt;li&gt;get move to compose/project_mng_service/nginx_jenkins/&lt;/li&gt;
+  &lt;li&gt;Run docker-compose.yml file&lt;/li&gt;
+&lt;/ol&gt;    
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# docker-compose up &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ol start=&quot;4&quot;&gt;
+  &lt;li&gt;There are advanced information in &lt;a href=&quot;https://www.jenkins.io/doc/&quot;&gt;&lt;strong&gt;Jenkins Official User Documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;heading2&quot;&gt;Gitolite&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;This docker make 2 account as gitolite-creator and git-manager. gitolite install at gitolite-creator and git-manager will manage gitolite system such as add new user or make new repogitory etc&lt;/li&gt;
+  &lt;li&gt;For management add new user account or make new repository, administrator must be accessed gitolite server by git-manager account. So, User must make client_user.pub key in docker/gitolite/system folder. Dockerfile will add this key at authorized_keys in git-manager account&lt;/li&gt;
+  &lt;li&gt;get move to compose/project_mng_service/gitolite/&lt;/li&gt;
+  &lt;li&gt;Run docker-compose.yml file&lt;/li&gt;
+&lt;/ol&gt;    
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# docker-compose up &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;ol start=&quot;4&quot;&gt;
+  &lt;li&gt;There are sample shell scripts&lt;/li&gt;
+  &lt;ul&gt;
+    &lt;li&gt;you can access the container of gitolite using &quot;docker exec -it gitolite base&quot;&lt;/li&gt;
+    &lt;li&gt;you can find shell script files at /home/git-manager/sample-script/&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+clone_admin.sh -&gt; clone admin repository to manage gitolite system. administrator must manage gitolite system though only git-manager account 
+add_user.sh -&gt; it show how to add new user in gitolite
+&lt;/blockquote&gt;
+
+&lt;ol start=&quot;5&quot;&gt;
+  &lt;li&gt;There are advanced information in &lt;a href=&quot;https://gitolite.com/gitolite/cookbook/&quot;&gt;&lt;strong&gt;Gitolite Cookbook&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;heading2&quot;&gt;Harbor&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;To use harbor, it require latest docker-compose package. run /compose/project_mng_service/harbor-v.2.0.0/update_docker-compose.sh. if user already have latest version than 1.26.0, don't need this step&lt;/li&gt;
+  &lt;li&gt;harbor require a configuration file such as harbor.yml. update_harbor_config.sh file make harbor.yml. and then run install.sh, harbor will install successfully&lt;/li&gt;
+  &lt;li&gt;If user want to install harbor by one step, user can use autoinstall.sh file. it is process to make harbor.yml and run install.sh&lt;/li&gt;
+  &lt;li&gt;If user want to use https, have to make ssl key in /compose/project_mng_service/harbor-v.2.0.0/ssl/ before runing install.sh or autoinstall.sh&lt;/li&gt;
+  &lt;li&gt;If user want to make ssl key, refer &quot;Setting up HTTPS on a web server&quot; section. there are at bottom in this page&lt;/li&gt;
+  &lt;li&gt;There are advanced information in &lt;a href=&quot;https://goharbor.io/docs/2.0.0/&quot;&gt;&lt;strong&gt;Harbor 2.0 Documentation&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt; 
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;heading1&quot;&gt;Setting up HTTPS on a web server&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;This step requires running http nginx server. it recommend php nginx server for this step. if user need to informations for this, refer to &lt;a href=&quot;https://goharbor.io/docs/2.0.0/&quot;&gt;&lt;strong&gt;devspoon-web&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;ol&gt;
+    &lt;li&gt;There are letsencrypt.sh shell script file in script folder and it interlocked by volumes. so user can access script file in a nginx container&lt;/li&gt;
+    &lt;li&gt;use &quot;docker exec -it &lt;nginx container name&gt; bash&quot; command, user can get docker inside.&lt;/li&gt;
+    &lt;li&gt;run letsencrypt.sh and insert informations such as webroot, domain, e-mail etc. this script make ssl-key and make crontab schedule automatically&lt;/li&gt;
+    &lt;li&gt;using &quot;exit&quot; command user can get off from container&lt;/li&gt;
+    &lt;li&gt;Run nginx_proxy_https_conf.sh file in config/web-server/nginx/(web server type) and enter service port number, domain, proxy url(Openproject's application name in docker-compose.yml), proxy port number, filename, and than, it make a nginx conf file in conf.d folder&lt;/li&gt;
+    &lt;li&gt;user have to remove http conf file in config/web-server/nginx/(web server type)/conf.d/&lt;/li&gt;
+    &lt;li&gt;run &quot;docker-compose up&quot; command again in the compose folder&lt;/li&gt;
+  &lt;/ol&gt;   
+&lt;/ul&gt;</content><author><name>bluebamus</name></author><category term="Getting started" /><summary type="html">devspoon-startup-web is an open source made based on devspoon-web that can easily build project integration management solutions (openproject, jenkins, gitolite[private git server], harbor[private docker server]) required for start-up or development teams as well as php and python based web servers.</summary></entry><entry><title type="html">How to start devspoon-web solution</title><link href="/devspoon-web" rel="alternate" type="text/html" title="How to start devspoon-web solution" /><published>2020-09-19T19:00:00+09:00</published><updated>2020-09-19T19:00:00+09:00</updated><id>/devspoon-web</id><content type="html" xml:base="/devspoon-web">&lt;p&gt;&lt;img src=&quot;assets/images/posts/2020-07-01_10-00-00/devspoon-web.png&quot; alt=&quot;Devspoon-web solution infrastructure&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This open source project offer docker that three kind of web service solutions by php-7.3, gunicorn, uwsgi based on nginx server.
+    Anyone can install web services easily using docker and docker-compose.
+    Af you want to use python and php service at same time, this solution can help you better.
+&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;heading1&quot;&gt;Let's start the PHP server&lt;/h1&gt;
-&lt;p&gt;Typographically&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backend.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;q=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;myform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// on success use return data here&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xhr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// if ajax fails display error alert&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ajax error response type &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;heading1&quot;&gt;Let's start the gunicorn server with django&lt;/h1&gt;
-&lt;p&gt;Typographically&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backend.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;q=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;myform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// on success use return data here&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xhr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// if ajax fails display error alert&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ajax error response type &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-&lt;hr /&gt;
-
-&lt;h1 id=&quot;heading1&quot;&gt;Let's start the uwsgi server with django&lt;/h1&gt;
-&lt;p&gt;Typographically&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backend.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;q=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;myform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// on success use return data here&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xhr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// if ajax fails display error alert&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ajax error response type &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-&lt;hr /&gt;</content><author><name>bluebamus</name></author><category term="Getting started" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to build https with devspoon’s web service</title><link href="http://localhost:4000/devspoon-web-https" rel="alternate" type="text/html" title="How to build https with devspoon's web service" /><published>2020-07-06T01:00:00+09:00</published><updated>2020-07-06T01:00:00+09:00</updated><id>http://localhost:4000/devspoon-web-https</id><content type="html" xml:base="http://localhost:4000/devspoon-web-https">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Support to make configuration files for each service(conf, yml etc) :&lt;/strong&gt; &lt;mark&gt;Using shell script,
+      you can easily make and manage the configuration files&lt;/mark&gt; required for nginx, php, dockerfile, etc. with only
+    the information required by the user's keyboard.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Efficiently dockerfile configuration for development and service operation :&lt;/strong&gt;The log folder is
+    interlocked by &quot;volumes&quot; in docker-compose.yml so that &lt;mark&gt;user can can be tracked problems even when the docker
+      container is stopped.&lt;/mark&gt; Webroot, nginx config, etc. are frequently modified during development so these are
+    interlocked by &quot;volumes&quot;&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Provide reverse proxy function :&lt;/strong&gt;&lt;mark&gt;Multiple web and app services can be provided through one
+      nginx with php or python and services can be provided simultaneously.&lt;/mark&gt; A shell script is provided to easily
+    create a proxy config file so that it can be integrated with the web UI of other services.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Provides easy distributed service operation method :&lt;/strong&gt;&lt;mark&gt;You can use multiple web servers
+      through proxy,&lt;/mark&gt; and you can use multiple app servers on one web server. (How to set load balancing will be
+    supported in the future)&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&quot;heading1&quot;&gt;Let's start the PHP server&lt;/h1&gt;
-&lt;p&gt;Typographically&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backend.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;q=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;myform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// on success use return data here&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xhr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// if ajax fails display error alert&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ajax error response type &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-&lt;hr /&gt;
+&lt;p&gt;* This open source doesn't support database solution. To management DB data safely installing it at localhost is better.&lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;heading1&quot;&gt;Let's start the gunicorn server with django&lt;/h1&gt;
-&lt;p&gt;Typographically&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backend.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;q=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;myform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// on success use return data here&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xhr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// if ajax fails display error alert&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ajax error response type &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-&lt;hr /&gt;
+&lt;p&gt;&lt;u&gt;So I recommend a reference link&lt;/u&gt;&lt;/p&gt;
 
-&lt;h1 id=&quot;heading1&quot;&gt;Let's start the uwsgi server with django&lt;/h1&gt;
-&lt;p&gt;Typographically&lt;/p&gt;
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c1&quot;&gt;// javascript code sample&lt;/span&gt;
-&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ajax&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'POST'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;url&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'backend.php'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;q=&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;myform&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;serialize&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(),&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;success&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// on success use return data here&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-  &lt;span class=&quot;na&quot;&gt;error&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;xhr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;exception&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// if ajax fails display error alert&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;ajax error response type &quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-&lt;hr /&gt;</content><author><name>bluebamus</name></author><category term="Getting started" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start devspoon-startup-cloud-tizen solution</title><link href="http://localhost:4000/devspoon-startup-cloud-tizen" rel="alternate" type="text/html" title="How to start devspoon-startup-cloud-tizen solution" /><published>2020-07-04T23:00:00+09:00</published><updated>2020-07-04T23:00:00+09:00</updated><id>http://localhost:4000/devspoon-startup-cloud-tizen</id><content type="html" xml:base="http://localhost:4000/devspoon-startup-cloud-tizen">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;English Ver :&lt;br&gt;&lt;/strong&gt; &lt;a href=&quot;https://linuxize.com/post/how-to-install-mariadb-on-ubuntu-18-04/&quot;&gt;[How to Install MariaDB on Ubuntu 18.04]&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Korean Ver :&lt;br&gt;&lt;/strong&gt; &lt;a href=&quot;https://blog.lael.be/post/8319&quot;&gt;[Ubuntu 18.04 LTS 에서 웹서버(NGINX + PHP-FPM + MariaDB) 구성하기]&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;heading1&quot;&gt;Let's start the PHP server&lt;/h1&gt;&lt;br&gt;
+
+&lt;blockquote&gt;
+This solution has www folder that synchronized with container by volumes in docker-compose.yml.
+And user can make webroot folder here like www/devspoons.
+Already therer is sample folder in www/sample. So user can refer at the folder of index file.
+&lt;/blockquote&gt;
+&lt;p&gt;* If you want to use wordpress or gnuboard or any framework, after make any folder at www, move your ecompressed files here.&lt;/p&gt;&lt;br&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Make webroot and copy files&lt;/h2&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/www
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;py37  sample
+
+root# mkdir devspoons-test
+root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoons-test
+root# &lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-e&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;?php&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n\t&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;phpinfo();&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\n&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;?&amp;gt;&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; index.php
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;index.php&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Make nginx conf file&lt;/h2&gt;&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;
+				Docker-compose can connect between containers using application name in a docker-compose.yml file.
+				Current PHP application name is php-app.&lt;br&gt;
+				If you don't have domain yet, can use ip address. but you can't use https setting on web service of ip address.
+			&lt;/li&gt;
+		&lt;/ul&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/config/web-server/nginx/php
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;conf.d  fastcgi  nginx_conf  nginx_conf.sh  nginx_https_conf.sh  sample_nginx.conf  sample_nginx_https.conf
+
+root# chmod 777 nginx_conf.sh
+root# ./nginx_conf.sh
+Enter the service web root &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;devspoons-test
+Entered service web root: devspoons-test
+Enter the service portnumber &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;80
+Entered service portnumber: 80
+Enter the service domain &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;devspoons.github.com
+Entered service domain: devspoons.github.com
+Enter the app name &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;php-app
+Entered app name: php-app
+Enter the serviceport
+&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;you push enter with none, there are no port number &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;9000
+Entered proxy port: 9000
+Enter the file name &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;devspoons-test1
+Entered file name: devspoons-test1
+
+root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;conf.d/
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;devspoons-test1_ng.conf  sample_php_ng.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;
+	&lt;/li&gt;
+
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Make PHP conf file&lt;/h2&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/config/app-server/php
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;php_conf.sh  php_ini  pool.d  sample_php.conf
+
+root# chmod 777 php_conf.sh
+root# ./php_conf.sh
+Enter the service domain &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;devspoons.github.com
+Entered service domain: devspoons.github.com
+Enter the service portnumber &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;9000
+Entered service portnumber: 9000
+
+root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;pool.d/
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;devspoons.github.com_php.conf  sample_php.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;		
+	&lt;/li&gt;
+
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Run devspoon-web&lt;/h2&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/compose/web_service/nginx_php
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;docker-compose.yml
+
+root# docker-compose up &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;		
+	&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;heading1&quot;&gt;Let's start the Gunicorn server&lt;/h1&gt;&lt;br&gt;
+
+&lt;blockquote&gt;
+This solution has www folder that synchronized with container by volumes in docker-compose.yml.
+And user can make webroot folder here like www/devspoons/.
+Already therer is sample folder in www/py37. So user can refer at the folder of index file.
+&lt;/blockquote&gt;
+&lt;p&gt;* We assume that already user know how can make django project. So we will use sample django project named py37.&lt;/p&gt;&lt;br&gt;
+
+&lt;ol&gt;
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Make webroot and copy files&lt;/h2&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/www
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;py37  sample&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Make nginx conf file&lt;/h2&gt;&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;
+				Docker-compose can connect between containers using application name in a docker-compose.yml file.
+				Current gunicorn application name is gunicorn-app. if you want to change the name, update docker-compose.yml at devspoon-web/compose/web_service/nginx_gunicorn&lt;br&gt;
+				If you don't have domain yet, can use ip address. but you can't use https setting on web service of ip address.
+			&lt;/li&gt;
+		&lt;/ul&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/config/web-server/nginx/gunicorn
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;conf.d  nginx_conf  nginx_conf.sh  nginx_https_conf.sh  sample_nginx.conf  sample_nginx_https.conf
+
+root# chmod 777 nginx_conf.sh
+root# ./nginx_conf.sh
+Enter the service web root &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/www&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/py37&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/django_test&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/repo
+Enter the service portnumber &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;80
+Enter the service domain &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;devspoons.github.com
+Enter the app name &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;gunicorn-app
+Enter the serviceport
+&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;you push enter with none, there are no port number &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;8000
+Enter the file name &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;devspoons.github.com1
+
+root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;conf.d/
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;devspoons.github.com1_gunicorn_ng.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;
+	&lt;/li&gt;
+
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Update gunicorn executing script&lt;/h2&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/docker/gunicorn
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;Dockerfile  run.sh  make_run.sh  sample_run
+&lt;span class=&quot;c&quot;&gt;# if you want to use sample project, you can use run.sh&lt;/span&gt;
+
+root# make_run.sh
+
+Enter the project path &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/www&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/shop&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/shop_kings
+Enter the project name &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;shop_kings
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;		
+	&lt;/li&gt;
+
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Run devspoon-web&lt;/h2&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/compose/web_service/nginx_gunicorn
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;docker-compose.yml
+
+root# docker-compose up &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;		
+	&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;heading1&quot;&gt;Let's start the UWSGI server&lt;/h1&gt;&lt;br&gt;
+
+&lt;blockquote&gt;
+	This solution has www folder that synchronized with container by volumes in docker-compose.yml.
+	And user can make webroot folder here like www/devspoons/.
+	Already therer is sample folder in www/py37. So user can refer at the folder of index file.
+	&lt;/blockquote&gt;
+	&lt;p&gt;* We assume that already user know how can make django project. So we will use sample django project named py37.&lt;/p&gt;&lt;br&gt;
+	
+&lt;ol&gt;
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Make webroot and copy files&lt;/h2&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/www
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;py37  sample&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Make nginx conf file&lt;/h2&gt;&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;
+				Docker-compose can connect between containers using application name in a docker-compose.yml file.
+				Current UWSGI application name is uwsgi-app. if you want to change the name, update docker-compose.yml at devspoon-web/compose/web_service/nginx_uwsgi&lt;br&gt;
+				If you don't have domain yet, can use ip address. but you can't use https setting on web service of ip address.
+			&lt;/li&gt;
+		&lt;/ul&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/config/web-server/nginx/uwsgi
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;conf.d  nginx_conf  nginx_conf.sh  nginx_https_conf.sh  sample_nginx.conf  sample_nginx_https.conf  uwsgi_params
+
+root# chmod 777 nginx_conf.sh
+root# ./nginx_conf.sh
+Enter the service web root &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/www&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/py37&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/django_test&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/repo
+Enter the service portnumber &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;80
+Enter the service domain &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;devspoons.github.com
+Enter the app name &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;uwsgi-app
+Enter the serviceport
+&lt;span class=&quot;k&quot;&gt;if &lt;/span&gt;you push enter with none, there are no port number &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;8000
+Enter the file name &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;devspoons.github.com1
+
+root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;conf.d/
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;devspoons.github.com1_uwsgi_ng.conf&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;
+	&lt;/li&gt;
+
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Update UWSGI executing script&lt;/h2&gt;&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;
+				UWSGI has two of executing ways to run a server using python file and ini file.&lt;br&gt;
+				We serve both ways but explain only &quot;ini&quot; case in this manual.&lt;br&gt;
+				And uwsgi.ini support many arguments, So We don't mention it in this page.
+			&lt;/li&gt;
+		&lt;/ul&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/config/app-server/uwsgi
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;sample_uwsgi.ini uwsgi_conf.sh  uwsgi_config.py
+
+root# ./uwsgi_conf.sh
+
+Enter the project path &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/www&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/shop&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/shop_kings
+Enter the project name &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;shop_kings
+Enter the service port number &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;8000
+
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;sample_uwsgi.ini uwsgi_conf.sh  uwsgi_config.py  uwsgi.ini&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/docker/uwsgi
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;Dockerfile  run.sh  make_run.sh  sample_run
+&lt;span class=&quot;c&quot;&gt;# if you want to use sample project, you can use run.sh&lt;/span&gt;
+
+root# make_run.sh
+
+Enter the project path &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/www&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/shop&lt;span class=&quot;se&quot;&gt;\\&lt;/span&gt;/shop_kings
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;		
+	&lt;/li&gt;
+
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Run devspoon-web&lt;/h2&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/compose/web_service/nginx_uwsgi
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;docker-compose.yml
+
+root# docker-compose up &lt;span class=&quot;nt&quot;&gt;-d&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;		
+	&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;ul&gt;
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Trace log files&lt;/h2&gt;&lt;/p&gt;
+		&lt;ul&gt;
+			&lt;li&gt;
+				Check other log folders. If log option was setting, It will make a file at each folders.&lt;br&gt;
+				This manual explain only for nginx log case.
+			&lt;/li&gt;
+		&lt;/ul&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;root# &lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;devspoon-web/log/nginx
+root# &lt;span class=&quot;nb&quot;&gt;ls
+&lt;/span&gt;devspoons.github.com.access.log devspoons.github.com.error.log&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;hr /&gt;		
+	&lt;/li&gt;
+	&lt;li&gt;
+		&lt;p&gt;&lt;h2&gt;Upgrade Http to https&lt;/h2&gt;&lt;/p&gt;
+		&lt;p&gt;&lt;strong&gt;Go to manual :&lt;/strong&gt; &lt;a href=&quot;devspoon-web-https&quot;&gt;How to build https with devspoon's web service&lt;/a&gt;&lt;/p&gt;
+&lt;hr /&gt;		
+	&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>bluebamus</name></author><category term="Getting started" /><summary type="html"></summary></entry><entry><title type="html">How to set jenkins for tizen</title><link href="/tizen-jenkins" rel="alternate" type="text/html" title="How to set jenkins for tizen" /><published>2020-07-13T20:25:00+09:00</published><updated>2020-07-13T20:25:00+09:00</updated><id>/tizen-jenkins</id><content type="html" xml:base="/tizen-jenkins">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="About tizen" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">Tizen reference</title><link href="/tizen-reference" rel="alternate" type="text/html" title="Tizen reference" /><published>2020-07-12T23:30:00+09:00</published><updated>2020-07-12T23:30:00+09:00</updated><id>/tizen-reference</id><content type="html" xml:base="/tizen-reference">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="About tizen" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start devspoon-startup-cloud-tizen solution</title><link href="/gnuboard" rel="alternate" type="text/html" title="How to start devspoon-startup-cloud-tizen solution" /><published>2020-07-11T23:40:00+09:00</published><updated>2020-07-11T23:40:00+09:00</updated><id>/gnuboard</id><content type="html" xml:base="/gnuboard">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="Build web service for start-up" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start harbor with devspoon solutions</title><link href="/harbor" rel="alternate" type="text/html" title="How to start harbor with devspoon solutions" /><published>2020-07-10T23:00:00+09:00</published><updated>2020-07-10T23:00:00+09:00</updated><id>/harbor</id><content type="html" xml:base="/harbor">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="Use management solutions" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start gitolite with devspoon solutions</title><link href="/gitolite" rel="alternate" type="text/html" title="How to start gitolite with devspoon solutions" /><published>2020-07-09T19:00:00+09:00</published><updated>2020-07-09T19:00:00+09:00</updated><id>/gitolite</id><content type="html" xml:base="/gitolite">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="Use management solutions" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start openproject with devspoon solutions</title><link href="/openproject" rel="alternate" type="text/html" title="How to start openproject with devspoon solutions" /><published>2020-07-09T05:00:00+09:00</published><updated>2020-07-09T05:00:00+09:00</updated><id>/openproject</id><content type="html" xml:base="/openproject">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="Use management solutions" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to start junkins with devspoon solutions</title><link href="/jenkins" rel="alternate" type="text/html" title="How to start junkins with devspoon solutions" /><published>2020-07-08T02:30:00+09:00</published><updated>2020-07-08T02:30:00+09:00</updated><id>/jenkins</id><content type="html" xml:base="/jenkins">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;</content><author><name>bluebamus</name></author><category term="Use management solutions" /><summary type="html">This page is reserved preview posting. It'll be fill by bluebamus author later.</summary></entry><entry><title type="html">How to build https with devspoon’s proxy service</title><link href="/devspoon-proxy-https" rel="alternate" type="text/html" title="How to build https with devspoon's proxy service" /><published>2020-07-06T22:00:00+09:00</published><updated>2020-07-06T22:00:00+09:00</updated><id>/devspoon-proxy-https</id><content type="html" xml:base="/devspoon-proxy-https">&lt;p&gt;This page is reserved preview posting. It'll be fill by bluebamus author later.&lt;/p&gt;
 
 &lt;hr /&gt;
 
